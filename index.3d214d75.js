@@ -27098,68 +27098,66 @@ var _styledComponents = require("styled-components");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-var _classicHome = require("./components/ClassicHome");
-var _classicHomeDefault = parcelHelpers.interopDefault(_classicHome);
+var _home = require("./components/Home");
+var _homeDefault = parcelHelpers.interopDefault(_home);
 var _contact = require("./components/Contact");
 var _contactDefault = parcelHelpers.interopDefault(_contact);
-function App() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/:path(|classic-home)",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _classicHomeDefault.default), {
-                        ...classicHomeData
+class App extends (0, _reactDefault.default).Component {
+    render() {
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Switch), {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/:path(|home)",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {
+                            ...homeData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 14,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 13,
                         columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 12,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "/contact",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {
-                        ...contactData
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: "/contact",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {
+                            ...contactData
+                        }, void 0, false, {
+                            fileName: "App.jsx",
+                            lineNumber: 17,
+                            columnNumber: 13
+                        }, this)
                     }, void 0, false, {
                         fileName: "App.jsx",
                         lineNumber: 16,
                         columnNumber: 11
                     }, this)
-                }, void 0, false, {
-                    fileName: "App.jsx",
-                    lineNumber: 15,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
+                ]
+            }, void 0, true, {
+                fileName: "App.jsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "App.jsx",
             lineNumber: 11,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "App.jsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = App;
 exports.default = App;
 const iconICONfeatheranchorSIZELARGESTATE1Data = {
     src: "/img/f1d5ded2-79f6-4223-b3b3-c694498e6536@1x.png"
 };
-const classicHomeData = {
-    hero: "/img/placement-area--asset-hero--size-default--state-default-@1x.png",
+const homeData = {
+    hero: "/img/placement-area--asset-hero--size-default--state-default--1x-png@1x.png",
     loremIpsumDolorSi: "Zrobimy to lepiej",
-    heroText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    vanjaMatijevicNrdomi4Rfp4Unsplash: "/img/vanja-matijevic-nrdomi4rfp4-unsplash@1x.png",
     label1: "Start",
     label2: "Oferta",
-    label3: "O Nas",
-    x964Af6733E7B4154906A9095919E96Cf: "/img/964af673-3e7b-4154-906a-9095919e96cf@1x.png",
+    label3: "Projekty",
     label4: "Kontakt",
     imageAssetSmallSizeDefaultStateDefa1: "/img/placement-area--asset-small--size-default--state-default-@1x.png",
     h61: "Projektowanie stron WWW",
@@ -27168,14 +27166,14 @@ const classicHomeData = {
             "Lorem ipsum dolor sit amet, consectetur ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 40,
+                lineNumber: 39,
                 columnNumber: 70
             }, undefined),
             "adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 40,
+        lineNumber: 39,
         columnNumber: 14
     }, undefined),
     h6TagH41: "Nasze usługi",
@@ -27187,14 +27185,14 @@ const classicHomeData = {
             "Lorem ipsum dolor sit amet, consectetur ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 45,
+                lineNumber: 44,
                 columnNumber: 70
             }, undefined),
             "adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 45,
+        lineNumber: 44,
         columnNumber: 14
     }, undefined),
     imageAssetSmallSizeDefaultStateDefa3: "/img/placement-area--asset-small--size-default--state-default--2@1x.png",
@@ -27204,14 +27202,14 @@ const classicHomeData = {
             "Lorem ipsum dolor sit amet, consectetur ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "App.jsx",
-                lineNumber: 48,
+                lineNumber: 47,
                 columnNumber: 70
             }, undefined),
             "adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         ]
     }, void 0, true, {
         fileName: "App.jsx",
-        lineNumber: 48,
+        lineNumber: 47,
         columnNumber: 14
     }, undefined),
     line2: "/img/line@1x.png",
@@ -27290,15 +27288,13 @@ const contactData = {
     inputDISPLAYELEMENTSDefaultSTATEDEF1Props: inputDISPLAYELEMENTSDefaultSTATEDEF1Data,
     inputDISPLAYELEMENTSDefaultSTATEDEF2Props: inputDISPLAYELEMENTSDefaultSTATEDEF2Data
 };
-var _c;
-$RefreshReg$(_c, "App");
 
   $parcel$ReactRefreshHelpers$53a7.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","styled-components":"1U3k6","react":"21dqq","react-router-dom":"cHIiW","./components/ClassicHome":"7goLM","./components/Contact":"ixcBX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1U3k6":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","styled-components":"1U3k6","react":"21dqq","react-router-dom":"cHIiW","./components/Home":"adc89","./components/Contact":"ixcBX","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"1U3k6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ServerStyleSheet", ()=>Je);
@@ -32273,11 +32269,11 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 }
 exports.default = _objectWithoutPropertiesLoose;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7goLM":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$45ca = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"adc89":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$990b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$45ca.prelude(module);
+$parcel$ReactRefreshHelpers$990b.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -32295,1020 +32291,998 @@ var _buttonDISPLAYELEMENTSLabelSIZEMEDIU2Default = parcelHelpers.interopDefault(
 var _styledComponents = require("styled-components");
 var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
 var _styledMixins = require("../../styledMixins");
-var _classicHomeCss = require("./ClassicHome.css");
-function ClassicHome(props) {
-    const { hero , loremIpsumDolorSi , heroText , vanjaMatijevicNrdomi4Rfp4Unsplash , label1 , label2 , label3 , x964Af6733E7B4154906A9095919E96Cf , label4 , imageAssetSmallSizeDefaultStateDefa1 , h61 , h6TagP1 , h6TagH41 , line1 , imageAssetSmallSizeDefaultStateDefa2 , h62 , h6TagP2 , imageAssetSmallSizeDefaultStateDefa3 , h63 , h6TagP3 , line2 , h6TagH42 , line3 , h6TagH51 , h6TagP4 , x819422431Fed4Eb6Afbe6Af6F7Db7Ec7 , x7Ed9D25247A34Ee4B6E86Bc7115B544E , x2D789B0514924Ff0A8CeDc75D1Fc4Edb , x923E5D72428445BbA212382Ce76B0607 , c17249Bf42884A28B7A462Bc0Aae00Cb , x89388002Fd2F4AcdB521D1De76716Eb3 , h6TagH52 , h6TagP5 , x56B63722Dcfb465BA2861A7Bbdde2308 , x2D1827Eb55Ba44DdA3Fd2D1C572221E1 , f9F651B98Aa942859Ff2E08F296A55Ac , x910180C026624EfdAec345D3C00A2C7B , f3Eced8C7F0C4F42923348442D0F388F , fcf690C096Bc49259B4479A50A53Ee89 , x30Bc77C36Fa14EfcBa1984649Da61E30 , b1C6B763Dc11465CB9602F7B78B5528C , h6TagH53 , h6TagP6 , promotionBox , companyStyleStyle3TagH4 , descriptionStyleStyle3TagP , productsStyleStyle3TagH5 , productStyleStyle3TagUi_L1 , productStyleStyle3TagUi_L2 , productStyleStyle3TagUi_L3 , servicesStyleStyle3TagH5 , serviceStyleStyle3TagUi_L1 , serviceStyleStyle3TagUi_L2 , serviceStyleStyle3TagUi_L3 , resourcesStyleStyle3TagH5 , resourceStyleStyle3TagUi_L1 , resourceStyleStyle3TagUi_L2 , resourceStyleStyle3TagUi_L3 , x6C69Ed490A3E459081762A1816C1Ca6E , iconTwitter , e7Fa66F167A942A0891523C7Ea7B14A0 , overlapGroup , x18D10Ae04802479398792Ad795373A07 , iconCall , copyrightStyleStyle2TagUi_S , privacyPolicyStyleStyle2TagUi_S , iconICONfeatheranchorSIZELARGESTATEProps  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "classic-home screen",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup5, {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Hero, {
-                            style: {
-                                backgroundImage: `url(${hero})`
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LoremIpsumDolorSi, {
+var _homeCss = require("./Home.css");
+class Home extends (0, _reactDefault.default).Component {
+    render() {
+        const { hero , loremIpsumDolorSi , label1 , label2 , label3 , label4 , imageAssetSmallSizeDefaultStateDefa1 , h61 , h6TagP1 , h6TagH41 , line1 , imageAssetSmallSizeDefaultStateDefa2 , h62 , h6TagP2 , imageAssetSmallSizeDefaultStateDefa3 , h63 , h6TagP3 , line2 , h6TagH42 , line3 , h6TagH51 , h6TagP4 , x819422431Fed4Eb6Afbe6Af6F7Db7Ec7 , x7Ed9D25247A34Ee4B6E86Bc7115B544E , x2D789B0514924Ff0A8CeDc75D1Fc4Edb , x923E5D72428445BbA212382Ce76B0607 , c17249Bf42884A28B7A462Bc0Aae00Cb , x89388002Fd2F4AcdB521D1De76716Eb3 , h6TagH52 , h6TagP5 , x56B63722Dcfb465BA2861A7Bbdde2308 , x2D1827Eb55Ba44DdA3Fd2D1C572221E1 , f9F651B98Aa942859Ff2E08F296A55Ac , x910180C026624EfdAec345D3C00A2C7B , f3Eced8C7F0C4F42923348442D0F388F , fcf690C096Bc49259B4479A50A53Ee89 , x30Bc77C36Fa14EfcBa1984649Da61E30 , b1C6B763Dc11465CB9602F7B78B5528C , h6TagH53 , h6TagP6 , promotionBox , companyStyleStyle3TagH4 , descriptionStyleStyle3TagP , productsStyleStyle3TagH5 , productStyleStyle3TagUi_L1 , productStyleStyle3TagUi_L2 , productStyleStyle3TagUi_L3 , servicesStyleStyle3TagH5 , serviceStyleStyle3TagUi_L1 , serviceStyleStyle3TagUi_L2 , serviceStyleStyle3TagUi_L3 , resourcesStyleStyle3TagH5 , resourceStyleStyle3TagUi_L1 , resourceStyleStyle3TagUi_L2 , resourceStyleStyle3TagUi_L3 , x6C69Ed490A3E459081762A1816C1Ca6E , iconTwitter , e7Fa66F167A942A0891523C7Ea7B14A0 , overlapGroup , x18D10Ae04802479398792Ad795373A07 , iconCall , copyrightStyleStyle2TagUi_S , privacyPolicyStyleStyle2TagUi_S , iconICONfeatheranchorSIZELARGESTATEProps  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "home screen",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup6, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Hero, {
+                                style: {
+                                    backgroundImage: `url(${hero})`
+                                },
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LoremIpsumDolorSi, {
                                     children: loremIpsumDolorSi
                                 }, void 0, false, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 95,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeroText, {
-                                    children: heroText
-                                }, void 0, false, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 96,
-                                    columnNumber: 13
+                                    fileName: "components/Home/index.jsx",
+                                    lineNumber: 93,
+                                    columnNumber: 15
                                 }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/ClassicHome/index.jsx",
-                            lineNumber: 94,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(VanjaMatijevicNRdOmI4rfp4Unsplash, {
-                            src: vanjaMatijevicNrdomi4Rfp4Unsplash,
-                            alt: "vanja-matijevic-NRdOmI4rfp4-unsplash"
-                        }, void 0, false, {
-                            fileName: "components/ClassicHome/index.jsx",
-                            lineNumber: 98,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Tabs, {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup2, {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Area, {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BarSTATEACTIVE, {}, void 0, false, {
-                                                        fileName: "components/ClassicHome/index.jsx",
-                                                        lineNumber: 106,
+                            }, void 0, false, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 92,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Tabs, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup2, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Area, {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(BarSTATEACTIVE, {}, void 0, false, {
+                                                            fileName: "components/Home/index.jsx",
+                                                            lineNumber: 99,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 98,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label, {
+                                                        children: label1
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 101,
                                                         columnNumber: 19
                                                     }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 105,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label, {
-                                                    children: label1
-                                                }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 108,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 104,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 97,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Area1, {}, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 104,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label1, {
+                                                        children: label2
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 105,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 103,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup3, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TabItemSTATEDEFAULT, {}, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 108,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Area1, {}, void 0, false, {
+                                                                fileName: "components/Home/index.jsx",
+                                                                lineNumber: 110,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label1, {
+                                                                children: label3
+                                                            }, void 0, false, {
+                                                                fileName: "components/Home/index.jsx",
+                                                                lineNumber: 111,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 109,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 107,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TabItemSTATEDEFAULT1, {}, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 114,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Home/index.jsx",
+                                        lineNumber: 96,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonDISPLAYELEMENTSLabelSIZEMEDIU1, {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LabelContainer, {
                                             children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Area1, {}, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 111,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label1, {
-                                                    children: label2
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                    to: "/contact",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AreaDISPLAYELEMENTSLabelSIZEMEDIUMS, {}, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 119,
+                                                        columnNumber: 21
+                                                    }, this)
                                                 }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 112,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 110,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup3, {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TabItemSTATEDEFAULT, {}, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 115,
-                                                    columnNumber: 17
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 118,
+                                                    columnNumber: 19
                                                 }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Area1, {}, void 0, false, {
-                                                            fileName: "components/ClassicHome/index.jsx",
-                                                            lineNumber: 117,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label1, {
-                                                            children: label3
-                                                        }, void 0, false, {
-                                                            fileName: "components/ClassicHome/index.jsx",
-                                                            lineNumber: 118,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 116,
-                                                    columnNumber: 17
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                                    to: "/contact",
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label2, {
+                                                        children: label4
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 122,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 121,
+                                                    columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 114,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TabItemSTATEDEFAULT1, {}, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 121,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 103,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeathersearchSIZELARGESTYLE, {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X964af6733e7b4154906a9095919e96cf, {
-                                            src: x964Af6733E7B4154906A9095919E96Cf,
-                                            alt: "964af673-3e7b-4154-906a-9095919e96cf"
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 125,
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 117,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 124,
+                                        fileName: "components/Home/index.jsx",
+                                        lineNumber: 116,
                                         columnNumber: 15
                                     }, this)
-                                }, void 0, false, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 123,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonDISPLAYELEMENTSLabelSIZEMEDIU1, {
-                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LabelContainer, {
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 95,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Home/index.jsx",
+                        lineNumber: 91,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup5, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FeaturedContent, {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageBlock, {
                                         children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                                                to: "/contact",
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AreaDISPLAYELEMENTSLabelSIZEMEDIUMS, {}, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 134,
-                                                    columnNumber: 19
-                                                }, this)
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageASSETsmallSIZEDefaultSTATEDEFA, {
+                                                style: {
+                                                    backgroundImage: `url(${imageAssetSmallSizeDefaultStateDefa1})`
+                                                }
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 133,
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 131,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label2, {
-                                                children: label4
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6, {
+                                                children: h61
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 134,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP, {
+                                                children: h6TagP1
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 135,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIUDefault.default), {}, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
                                                 lineNumber: 136,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 132,
+                                        fileName: "components/Home/index.jsx",
+                                        lineNumber: 130,
                                         columnNumber: 15
-                                    }, this)
-                                }, void 0, false, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 131,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/ClassicHome/index.jsx",
-                            lineNumber: 102,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FeaturedContent, {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageBlock, {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageASSETsmallSIZEDefaultSTATEDEFA, {
-                                            style: {
-                                                backgroundImage: `url(${imageAssetSmallSizeDefaultStateDefa1})`
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 142,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6, {
-                                            children: h61
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 145,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP, {
-                                            children: h6TagP1
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 146,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIUDefault.default), {}, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 147,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 141,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH4, {
-                                            children: h6TagH41
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 150,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Line, {
-                                            src: line1,
-                                            alt: "Line"
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 151,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageBlock1, {
-                                            children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageASSETsmallSIZEDefaultSTATEDEFA, {
-                                                    style: {
-                                                        backgroundImage: `url(${imageAssetSmallSizeDefaultStateDefa2})`
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 153,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H61, {
-                                                    children: h62
-                                                }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 156,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP, {
-                                                    children: h6TagP2
-                                                }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 157,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIUDefault.default), {}, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 158,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 152,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 149,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageBlock, {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageASSETsmallSIZEDefaultSTATEDEFA, {
-                                            style: {
-                                                backgroundImage: `url(${imageAssetSmallSizeDefaultStateDefa3})`
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 162,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H62, {
-                                            children: h63
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 165,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP, {
-                                            children: h6TagP3
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 166,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIUDefault.default), {}, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 167,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 161,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/ClassicHome/index.jsx",
-                            lineNumber: 140,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Line1, {
-                            src: line2,
-                            alt: "Line"
-                        }, void 0, false, {
-                            fileName: "components/ClassicHome/index.jsx",
-                            lineNumber: 170,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/ClassicHome/index.jsx",
-                    lineNumber: 93,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FeaturedSolutions, {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH41, {
-                            children: h6TagH42
-                        }, void 0, false, {
-                            fileName: "components/ClassicHome/index.jsx",
-                            lineNumber: 173,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Line2, {
-                            src: line3,
-                            alt: "Line"
-                        }, void 0, false, {
-                            fileName: "components/ClassicHome/index.jsx",
-                            lineNumber: 174,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ContentBlockContainer, {
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ContentBlock, {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CircleButtonSIZELARGESTATEDEFAULTST, {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconICONfeatheranchorSIZELARGESTATEDefault.default), {
-                                                src: iconICONfeatheranchorSIZELARGESTATEProps.src
+                                    }, this),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH4, {
+                                                children: h6TagH41
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 178,
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 139,
                                                 columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 177,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH5, {
-                                            children: h6TagH51
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 180,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP1, {
-                                            children: h6TagP4
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 181,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIU2Default.default), {}, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 182,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 176,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ContentBlock1, {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CircleButtonSIZELARGESTATEDEFAULTST1, {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherflagSIZELARGESTATEDE, {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon1, {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup4, {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X3d05fe7984984727850d01b88e1b79b9, {}, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 189,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X819422431fed4eb6Afbe6af6f7db7ec7, {
-                                                                src: x819422431Fed4Eb6Afbe6Af6F7Db7Ec7,
-                                                                alt: "81942243-1fed-4eb6-afbe-6af6f7db7ec7"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 190,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X7ed9d25247a34ee4B6e86bc7115b544e, {
-                                                                src: x7Ed9D25247A34Ee4B6E86Bc7115B544E,
-                                                                alt: "7ed9d252-47a3-4ee4-b6e8-6bc7115b544e"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 194,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X2d789b0514924ff0A8ceDc75d1fc4edb, {
-                                                                src: x2D789B0514924Ff0A8CeDc75D1Fc4Edb,
-                                                                alt: "2d789b05-1492-4ff0-a8ce-dc75d1fc4edb"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 198,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X923e5d72428445bbA212382ce76b0607, {
-                                                                src: x923E5D72428445BbA212382Ce76B0607,
-                                                                alt: "923e5d72-4284-45bb-a212-382ce76b0607"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 202,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(C17249bf42884a28B7a462bc0aae00cb, {
-                                                                src: c17249Bf42884A28B7A462Bc0Aae00Cb,
-                                                                alt: "c17249bf-4288-4a28-b7a4-62bc0aae00cb"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 206,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X89388002Fd2f4acdB521D1de76716eb3, {
-                                                                src: x89388002Fd2F4AcdB521D1De76716Eb3,
-                                                                alt: "89388002-fd2f-4acd-b521-d1de76716eb3"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 210,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/ClassicHome/index.jsx",
-                                                        lineNumber: 188,
-                                                        columnNumber: 21
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Line, {
+                                                src: line1,
+                                                alt: "Line"
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 140,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageBlock1, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageASSETsmallSIZEDefaultSTATEDEFA, {
+                                                        style: {
+                                                            backgroundImage: `url(${imageAssetSmallSizeDefaultStateDefa2})`
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 142,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H61, {
+                                                        children: h62
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 145,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP, {
+                                                        children: h6TagP2
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 146,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIUDefault.default), {}, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 147,
+                                                        columnNumber: 19
                                                     }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 187,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 186,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 185,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH51, {
-                                            children: h6TagH52
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 218,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP1, {
-                                            children: h6TagP5
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 219,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIU2Default.default), {}, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 220,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 184,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ContentBlock2, {
-                                    children: [
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CircleButtonSIZELARGESTATEDEFAULTST1, {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherflagSIZELARGESTATEDE, {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon2, {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup6, {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X16f95ded67b24051869a08494c5ba75b, {}, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 227,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X55165e0cDafb4b3b90846da0ad18dac0, {}, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 228,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X56b63722Dcfb465bA2861a7bbdde2308, {
-                                                                src: x56B63722Dcfb465BA2861A7Bbdde2308,
-                                                                alt: "56b63722-dcfb-465b-a286-1a7bbdde2308"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 229,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X2d1827eb55ba44ddA3fd2d1c572221e1, {
-                                                                src: x2D1827Eb55Ba44DdA3Fd2D1C572221E1,
-                                                                alt: "2d1827eb-55ba-44dd-a3fd-2d1c572221e1"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 233,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(F9f651b98aa942859ff2E08f296a55ac, {
-                                                                src: f9F651B98Aa942859Ff2E08F296A55Ac,
-                                                                alt: "f9f651b9-8aa9-4285-9ff2-e08f296a55ac"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 237,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X910180c026624efdAec345d3c00a2c7b, {
-                                                                src: x910180C026624EfdAec345D3C00A2C7B,
-                                                                alt: "910180c0-2662-4efd-aec3-45d3c00a2c7b"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 241,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(F3eced8c7f0c4f42923348442d0f388f, {
-                                                                src: f3Eced8C7F0C4F42923348442D0F388F,
-                                                                alt: "f3eced8c-7f0c-4f42-9233-48442d0f388f"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 245,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Fcf690c096bc49259b4479a50a53ee89, {
-                                                                src: fcf690C096Bc49259B4479A50A53Ee89,
-                                                                alt: "fcf690c0-96bc-4925-9b44-79a50a53ee89"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 249,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X30bc77c36fa14efcBa1984649da61e30, {
-                                                                src: x30Bc77C36Fa14EfcBa1984649Da61E30,
-                                                                alt: "30bc77c3-6fa1-4efc-ba19-84649da61e30"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 253,
-                                                                columnNumber: 23
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(B1c6b763Dc11465cB9602f7b78b5528c, {
-                                                                src: b1C6B763Dc11465CB9602F7B78B5528C,
-                                                                alt: "b1c6b763-dc11-465c-b960-2f7b78b5528c"
-                                                            }, void 0, false, {
-                                                                fileName: "components/ClassicHome/index.jsx",
-                                                                lineNumber: 257,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
-                                                        fileName: "components/ClassicHome/index.jsx",
-                                                        lineNumber: 226,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 225,
-                                                    columnNumber: 19
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 224,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 223,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH52, {
-                                            children: h6TagH53
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 265,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP1, {
-                                            children: h6TagP6
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 266,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIU2Default.default), {}, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 267,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "components/ClassicHome/index.jsx",
-                                    lineNumber: 222,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "components/ClassicHome/index.jsx",
-                            lineNumber: 175,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "components/ClassicHome/index.jsx",
-                    lineNumber: 172,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PromotionBox, {
-                    style: {
-                        backgroundImage: `url(${promotionBox})`
-                    }
-                }, void 0, false, {
-                    fileName: "components/ClassicHome/index.jsx",
-                    lineNumber: 271,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol1, {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletagContainer, {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CompanySTYLESTYLE3TAGH4, {
-                                                children: companyStyleStyle3TagH4
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 276,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescriptionSTYLESTYLE3TAGP, {
-                                                children: descriptionStyleStyle3TagP
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 277,
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 141,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 275,
+                                        fileName: "components/Home/index.jsx",
+                                        lineNumber: 138,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletagContainer1, {
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageBlock, {
                                         children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ProductsSTYLESTYLE3TAGH5, {
-                                                children: productsStyleStyle3TagH5
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ImageASSETsmallSIZEDefaultSTATEDEFA, {
+                                                style: {
+                                                    backgroundImage: `url(${imageAssetSmallSizeDefaultStateDefa3})`
+                                                }
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 280,
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 151,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ProductSTYLESTYLE3TAGUIL, {
-                                                children: productStyleStyle3TagUi_L1
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H62, {
+                                                children: h63
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 281,
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 154,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ProductSTYLESTYLE3TAGUIL1, {
-                                                children: productStyleStyle3TagUi_L2
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP, {
+                                                children: h6TagP3
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 282,
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 155,
                                                 columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ProductSTYLESTYLE3TAGUIL2, {
-                                                children: productStyleStyle3TagUi_L3
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 283,
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIUDefault.default), {}, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 156,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 279,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletagContainer2, {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ServicesSTYLESTYLE3TAGH5, {
-                                                children: servicesStyleStyle3TagH5
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 286,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ServiceSTYLESTYLE3TAGUIL, {
-                                                children: serviceStyleStyle3TagUi_L1
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 287,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ServiceSTYLESTYLE3TAGUIL1, {
-                                                children: serviceStyleStyle3TagUi_L2
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 288,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ServiceSTYLESTYLE3TAGUIL2, {
-                                                children: serviceStyleStyle3TagUi_L3
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 289,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 285,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletagContainer3, {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResourcesSTYLESTYLE3TAGH5, {
-                                                children: resourcesStyleStyle3TagH5
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 292,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResourceSTYLESTYLE3TAGUIL, {
-                                                children: resourceStyleStyle3TagUi_L1
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 293,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResourceSTYLESTYLE3TAGUIL1, {
-                                                children: resourceStyleStyle3TagUi_L2
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 294,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResourceSTYLESTYLE3TAGUIL2, {
-                                                children: resourceStyleStyle3TagUi_L3
-                                            }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 295,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 291,
+                                        fileName: "components/Home/index.jsx",
+                                        lineNumber: 150,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "components/ClassicHome/index.jsx",
-                                lineNumber: 274,
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 129,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SizemediumstateContainer, {
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Line1, {
+                                src: line2,
+                                alt: "Line"
+                            }, void 0, false, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 159,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Home/index.jsx",
+                        lineNumber: 128,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FeaturedSolutions, {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH41, {
+                                children: h6TagH42
+                            }, void 0, false, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 162,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Line2, {
+                                src: line3,
+                                alt: "Line"
+                            }, void 0, false, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 163,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ContentBlockContainer, {
                                 children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherfacebookSIZEMEDIUMST, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon3, {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X6c69ed490a3e459081762a1816c1ca6e, {
-                                                src: x6C69Ed490A3E459081762A1816C1Ca6E,
-                                                alt: "6c69ed49-0a3e-4590-8176-2a1816c1ca6e"
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ContentBlock, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CircleButtonSIZELARGESTATEDEFAULTST, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconICONfeatheranchorSIZELARGESTATEDefault.default), {
+                                                    src: iconICONfeatheranchorSIZELARGESTATEProps.src
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 167,
+                                                    columnNumber: 19
+                                                }, this)
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 301,
-                                                columnNumber: 19
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 166,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH5, {
+                                                children: h6TagH51
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 169,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP1, {
+                                                children: h6TagP4
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 170,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIU2Default.default), {}, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 171,
+                                                columnNumber: 17
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 300,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 299,
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Home/index.jsx",
+                                        lineNumber: 165,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherfacebookSIZEMEDIUMST, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon4, {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconTwitter, {
-                                                src: iconTwitter,
-                                                alt: "icon-twitter"
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ContentBlock1, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CircleButtonSIZELARGESTATEDEFAULTST1, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherflagSIZELARGESTATEDE, {
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon, {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup4, {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X3d05fe7984984727850d01b88e1b79b9, {}, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 178,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X819422431fed4eb6Afbe6af6f7db7ec7, {
+                                                                    src: x819422431Fed4Eb6Afbe6Af6F7Db7Ec7,
+                                                                    alt: "81942243-1fed-4eb6-afbe-6af6f7db7ec7"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 179,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X7ed9d25247a34ee4B6e86bc7115b544e, {
+                                                                    src: x7Ed9D25247A34Ee4B6E86Bc7115B544E,
+                                                                    alt: "7ed9d252-47a3-4ee4-b6e8-6bc7115b544e"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 183,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X2d789b0514924ff0A8ceDc75d1fc4edb, {
+                                                                    src: x2D789B0514924Ff0A8CeDc75D1Fc4Edb,
+                                                                    alt: "2d789b05-1492-4ff0-a8ce-dc75d1fc4edb"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 187,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X923e5d72428445bbA212382ce76b0607, {
+                                                                    src: x923E5D72428445BbA212382Ce76B0607,
+                                                                    alt: "923e5d72-4284-45bb-a212-382ce76b0607"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 191,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(C17249bf42884a28B7a462bc0aae00cb, {
+                                                                    src: c17249Bf42884A28B7A462Bc0Aae00Cb,
+                                                                    alt: "c17249bf-4288-4a28-b7a4-62bc0aae00cb"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 195,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X89388002Fd2f4acdB521D1de76716eb3, {
+                                                                    src: x89388002Fd2F4AcdB521D1De76716Eb3,
+                                                                    alt: "89388002-fd2f-4acd-b521-d1de76716eb3"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 199,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/Home/index.jsx",
+                                                            lineNumber: 177,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 176,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 175,
+                                                    columnNumber: 19
+                                                }, this)
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 309,
-                                                columnNumber: 19
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 174,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH51, {
+                                                children: h6TagH52
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 207,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP1, {
+                                                children: h6TagP5
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 208,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIU2Default.default), {}, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 209,
+                                                columnNumber: 17
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 308,
-                                            columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 307,
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Home/index.jsx",
+                                        lineNumber: 173,
                                         columnNumber: 15
                                     }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherfacebookSIZEMEDIUMST, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon5, {
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ContentBlock2, {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CircleButtonSIZELARGESTATEDEFAULTST1, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherflagSIZELARGESTATEDE, {
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon1, {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup7, {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X16f95ded67b24051869a08494c5ba75b, {}, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 216,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X55165e0cDafb4b3b90846da0ad18dac0, {}, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 217,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X56b63722Dcfb465bA2861a7bbdde2308, {
+                                                                    src: x56B63722Dcfb465BA2861A7Bbdde2308,
+                                                                    alt: "56b63722-dcfb-465b-a286-1a7bbdde2308"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 218,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X2d1827eb55ba44ddA3fd2d1c572221e1, {
+                                                                    src: x2D1827Eb55Ba44DdA3Fd2D1C572221E1,
+                                                                    alt: "2d1827eb-55ba-44dd-a3fd-2d1c572221e1"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 222,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(F9f651b98aa942859ff2E08f296a55ac, {
+                                                                    src: f9F651B98Aa942859Ff2E08F296A55Ac,
+                                                                    alt: "f9f651b9-8aa9-4285-9ff2-e08f296a55ac"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 226,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X910180c026624efdAec345d3c00a2c7b, {
+                                                                    src: x910180C026624EfdAec345D3C00A2C7B,
+                                                                    alt: "910180c0-2662-4efd-aec3-45d3c00a2c7b"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 230,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(F3eced8c7f0c4f42923348442d0f388f, {
+                                                                    src: f3Eced8C7F0C4F42923348442D0F388F,
+                                                                    alt: "f3eced8c-7f0c-4f42-9233-48442d0f388f"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 234,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Fcf690c096bc49259b4479a50a53ee89, {
+                                                                    src: fcf690C096Bc49259B4479A50A53Ee89,
+                                                                    alt: "fcf690c0-96bc-4925-9b44-79a50a53ee89"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 238,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X30bc77c36fa14efcBa1984649da61e30, {
+                                                                    src: x30Bc77C36Fa14EfcBa1984649Da61E30,
+                                                                    alt: "30bc77c3-6fa1-4efc-ba19-84649da61e30"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 242,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(B1c6b763Dc11465cB9602f7b78b5528c, {
+                                                                    src: b1C6B763Dc11465CB9602F7B78B5528C,
+                                                                    alt: "b1c6b763-dc11-465c-b960-2f7b78b5528c"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Home/index.jsx",
+                                                                    lineNumber: 246,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/Home/index.jsx",
+                                                            lineNumber: 215,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 214,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 213,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 212,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGH52, {
+                                                children: h6TagH53
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 254,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(H6TAGP1, {
+                                                children: h6TagP6
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 255,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _buttonDISPLAYELEMENTSLabelSIZEMEDIU2Default.default), {}, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 256,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "components/Home/index.jsx",
+                                        lineNumber: 211,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "components/Home/index.jsx",
+                                lineNumber: 164,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "components/Home/index.jsx",
+                        lineNumber: 161,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PromotionBox, {
+                        style: {
+                            backgroundImage: `url(${promotionBox})`
+                        }
+                    }, void 0, false, {
+                        fileName: "components/Home/index.jsx",
+                        lineNumber: 260,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Footer, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol1, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletagContainer, {
                                             children: [
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(B6774697Ce254077825285dbbbc98619, {}, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 314,
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CompanySTYLESTYLE3TAGH4, {
+                                                    children: companyStyleStyle3TagH4
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 265,
                                                     columnNumber: 19
                                                 }, this),
-                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
-                                                    children: [
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Fe6285e83ae34dd988b17417be5ad347, {}, void 0, false, {
-                                                            fileName: "components/ClassicHome/index.jsx",
-                                                            lineNumber: 316,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(E7fa66f167a942a0891523c7ea7b14a0, {
-                                                            src: e7Fa66F167A942A0891523C7Ea7B14A0,
-                                                            alt: "e7fa66f1-67a9-42a0-8915-23c7ea7b14a0"
-                                                        }, void 0, false, {
-                                                            fileName: "components/ClassicHome/index.jsx",
-                                                            lineNumber: 317,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 315,
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(DescriptionSTYLESTYLE3TAGP, {
+                                                    children: descriptionStyleStyle3TagP
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 266,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 313,
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 264,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletagContainer1, {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ProductsSTYLESTYLE3TAGH5, {
+                                                    children: productsStyleStyle3TagH5
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 269,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ProductSTYLESTYLE3TAGUIL, {
+                                                    children: productStyleStyle3TagUi_L1
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 270,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ProductSTYLESTYLE3TAGUIL1, {
+                                                    children: productStyleStyle3TagUi_L2
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 271,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ProductSTYLESTYLE3TAGUIL2, {
+                                                    children: productStyleStyle3TagUi_L3
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 272,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 268,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletagContainer2, {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ServicesSTYLESTYLE3TAGH5, {
+                                                    children: servicesStyleStyle3TagH5
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 275,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ServiceSTYLESTYLE3TAGUIL, {
+                                                    children: serviceStyleStyle3TagUi_L1
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 276,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ServiceSTYLESTYLE3TAGUIL1, {
+                                                    children: serviceStyleStyle3TagUi_L2
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 277,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ServiceSTYLESTYLE3TAGUIL2, {
+                                                    children: serviceStyleStyle3TagUi_L3
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 278,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 274,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletagContainer3, {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResourcesSTYLESTYLE3TAGH5, {
+                                                    children: resourcesStyleStyle3TagH5
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 281,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResourceSTYLESTYLE3TAGUIL, {
+                                                    children: resourceStyleStyle3TagUi_L1
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 282,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResourceSTYLESTYLE3TAGUIL1, {
+                                                    children: resourceStyleStyle3TagUi_L2
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 283,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ResourceSTYLESTYLE3TAGUIL2, {
+                                                    children: resourceStyleStyle3TagUi_L3
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 284,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 280,
                                             columnNumber: 17
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 312,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherfacebookSIZEMEDIUMST, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon6, {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup7, {
-                                                style: {
-                                                    backgroundImage: `url(${overlapGroup})`
-                                                },
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X18d10ae04802479398792ad795373a07, {
-                                                    src: x18D10Ae04802479398792Ad795373A07,
-                                                    alt: "18d10ae0-4802-4793-9879-2ad795373a07"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Home/index.jsx",
+                                    lineNumber: 263,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SizemediumstateContainer, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherfacebookSIZEMEDIUMST, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon2, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X6c69ed490a3e459081762a1816c1ca6e, {
+                                                    src: x6C69Ed490A3E459081762A1816C1Ca6E,
+                                                    alt: "6c69ed49-0a3e-4590-8176-2a1816c1ca6e"
                                                 }, void 0, false, {
-                                                    fileName: "components/ClassicHome/index.jsx",
-                                                    lineNumber: 327,
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 290,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 326,
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 289,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 325,
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 288,
                                             columnNumber: 17
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 324,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherphoneSIZEMEDIUMSTATE, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon7, {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconCall, {
-                                                src: iconCall,
-                                                alt: "icon-call"
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherfacebookSIZEMEDIUMST, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon3, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconTwitter, {
+                                                    src: iconTwitter,
+                                                    alt: "icon-twitter"
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 298,
+                                                    columnNumber: 21
+                                                }, this)
                                             }, void 0, false, {
-                                                fileName: "components/ClassicHome/index.jsx",
-                                                lineNumber: 336,
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 297,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
-                                            fileName: "components/ClassicHome/index.jsx",
-                                            lineNumber: 335,
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 296,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherfacebookSIZEMEDIUMST, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon4, {
+                                                children: [
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(B6774697Ce254077825285dbbbc98619, {}, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 303,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
+                                                        children: [
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Fe6285e83ae34dd988b17417be5ad347, {}, void 0, false, {
+                                                                fileName: "components/Home/index.jsx",
+                                                                lineNumber: 305,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(E7fa66f167a942a0891523c7ea7b14a0, {
+                                                                src: e7Fa66F167A942A0891523C7Ea7B14A0,
+                                                                alt: "e7fa66f1-67a9-42a0-8915-23c7ea7b14a0"
+                                                            }, void 0, false, {
+                                                                fileName: "components/Home/index.jsx",
+                                                                lineNumber: 306,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 304,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 302,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 301,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherfacebookSIZEMEDIUMST, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon5, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup8, {
+                                                    style: {
+                                                        backgroundImage: `url(${overlapGroup})`
+                                                    },
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X18d10ae04802479398792ad795373a07, {
+                                                        src: x18D10Ae04802479398792Ad795373A07,
+                                                        alt: "18d10ae0-4802-4793-9879-2ad795373a07"
+                                                    }, void 0, false, {
+                                                        fileName: "components/Home/index.jsx",
+                                                        lineNumber: 316,
+                                                        columnNumber: 23
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 315,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 314,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 313,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherphoneSIZEMEDIUMSTATE, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon6, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconCall, {
+                                                    src: iconCall,
+                                                    alt: "icon-call"
+                                                }, void 0, false, {
+                                                    fileName: "components/Home/index.jsx",
+                                                    lineNumber: 325,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/Home/index.jsx",
+                                                lineNumber: 324,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "components/Home/index.jsx",
+                                            lineNumber: 323,
                                             columnNumber: 17
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/ClassicHome/index.jsx",
-                                        lineNumber: 334,
-                                        columnNumber: 15
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/ClassicHome/index.jsx",
-                                lineNumber: 298,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/ClassicHome/index.jsx",
-                        lineNumber: 273,
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Home/index.jsx",
+                                    lineNumber: 287,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 262,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/Home/index.jsx",
+                        lineNumber: 261,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FooterStrip, {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletaguiSContainer, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CopyrightSTYLESTYLE2TAGUIS, {
+                                    children: copyrightStyleStyle2TagUi_S
+                                }, void 0, false, {
+                                    fileName: "components/Home/index.jsx",
+                                    lineNumber: 333,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PrivacyPolicySTYLESTYLE2TAGUIS, {
+                                    children: privacyPolicyStyleStyle2TagUi_S
+                                }, void 0, false, {
+                                    fileName: "components/Home/index.jsx",
+                                    lineNumber: 334,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Home/index.jsx",
+                            lineNumber: 332,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "components/Home/index.jsx",
+                        lineNumber: 331,
                         columnNumber: 11
                     }, this)
-                }, void 0, false, {
-                    fileName: "components/ClassicHome/index.jsx",
-                    lineNumber: 272,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FooterStrip, {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(StylestyletaguiSContainer, {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CopyrightSTYLESTYLE2TAGUIS, {
-                                children: copyrightStyleStyle2TagUi_S
-                            }, void 0, false, {
-                                fileName: "components/ClassicHome/index.jsx",
-                                lineNumber: 344,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PrivacyPolicySTYLESTYLE2TAGUIS, {
-                                children: privacyPolicyStyleStyle2TagUi_S
-                            }, void 0, false, {
-                                fileName: "components/ClassicHome/index.jsx",
-                                lineNumber: 345,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "components/ClassicHome/index.jsx",
-                        lineNumber: 343,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "components/ClassicHome/index.jsx",
-                    lineNumber: 342,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "components/ClassicHome/index.jsx",
-            lineNumber: 92,
+                ]
+            }, void 0, true, {
+                fileName: "components/Home/index.jsx",
+                lineNumber: 90,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
+            fileName: "components/Home/index.jsx",
+            lineNumber: 89,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/ClassicHome/index.jsx",
-        lineNumber: 91,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = ClassicHome;
-const OverlapGroup5 = (0, _styledComponentsDefault.default).div`
-  width: 1664px;
-  height: 1862px;
+const OverlapGroup6 = (0, _styledComponentsDefault.default).div`
+  width: 1366px;
+  height: 768px;
   position: relative;
-  margin-top: -341px;
+  margin-top: -1px;
 `;
-_c1 = OverlapGroup5;
+_c = OverlapGroup6;
 const Hero = (0, _styledComponentsDefault.default).div`
   position: absolute;
-  width: 1366px;
-  top: 341px;
+  height: 768px;
+  top: 0;
   left: 0;
   display: flex;
-  flex-direction: column;
-  padding: 242.7px 301px;
-  align-items: flex-end;
-  min-height: 768px;
-  gap: 22px;
+  padding: 180.7px 301px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  min-width: 1366px;
   background-size: cover;
   background-position: 50% 50%;
 `;
-_c2 = Hero;
+_c1 = Hero;
 const LoremIpsumDolorSi = (0, _styledComponentsDefault.default).h1`
   width: 762px;
   height: 84px;
@@ -33320,54 +33294,33 @@ const LoremIpsumDolorSi = (0, _styledComponentsDefault.default).h1`
   letter-spacing: 0;
   line-height: 66px;
 `;
-_c3 = LoremIpsumDolorSi;
-const HeroText = (0, _styledComponentsDefault.default).p`
-  ${(0, _styledMixins.NotosansSemiBoldMasala16px)}
-  width: 562px;
-  height: 50px;
-  align-self: center;
-  margin-left: 2px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 16px;
-`;
-_c4 = HeroText;
-const VanjaMatijevicNRdOmI4rfp4Unsplash = (0, _styledComponentsDefault.default).img`
-  position: absolute;
-  width: 1664px;
-  height: 1249px;
-  top: 0;
-  left: 0;
-  mix-blend-mode: multiply;
-  object-fit: cover;
-`;
-_c5 = VanjaMatijevicNRdOmI4rfp4Unsplash;
+_c2 = LoremIpsumDolorSi;
 const Header = (0, _styledComponentsDefault.default).header`
   position: absolute;
-  width: auto;
+  width: 638px;
   height: 48px;
-  top: 377px;
-  left: 585px;
+  top: 37px;
+  left: 674px;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  min-width: 638px;
+  justify-content: space-between;
   background-color: transparent;
 `;
-_c6 = Header;
+_c3 = Header;
 const Tabs = (0, _styledComponentsDefault.default).div`
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 0;
   display: flex;
   align-items: flex-start;
-  min-width: 366px;
+  min-width: 366.03955078125px;
 `;
-_c7 = Tabs;
+_c4 = Tabs;
 const OverlapGroup2 = (0, _styledComponentsDefault.default).div`
   width: 42px;
   height: 42px;
   position: relative;
 `;
-_c8 = OverlapGroup2;
+_c5 = OverlapGroup2;
 const Area = (0, _styledComponentsDefault.default).div`
   position: absolute;
   width: 42px;
@@ -33377,14 +33330,14 @@ const Area = (0, _styledComponentsDefault.default).div`
   display: flex;
   align-items: flex-end;
 `;
-_c9 = Area;
+_c6 = Area;
 const BarSTATEACTIVE = (0, _styledComponentsDefault.default).div`
   height: 2px;
   flex: 1;
   background-color: var(--ship-gray);
   border-radius: 1000px;
 `;
-_c10 = BarSTATEACTIVE;
+_c7 = BarSTATEACTIVE;
 const Label = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala16px)}
   position: absolute;
@@ -33395,7 +33348,7 @@ const Label = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c11 = Label;
+_c8 = Label;
 const Label1 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldStack16px)}
   position: absolute;
@@ -33406,14 +33359,14 @@ const Label1 = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c12 = Label1;
+_c9 = Label1;
 const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
   width: 53px;
   height: 42px;
   position: relative;
   margin-left: 32px;
 `;
-_c13 = OverlapGroup1;
+_c10 = OverlapGroup1;
 const Area1 = (0, _styledComponentsDefault.default).div`
   position: absolute;
   width: 42px;
@@ -33421,14 +33374,14 @@ const Area1 = (0, _styledComponentsDefault.default).div`
   top: 0;
   left: 0;
 `;
-_c14 = Area1;
+_c11 = Area1;
 const OverlapGroup3 = (0, _styledComponentsDefault.default).div`
-  width: 49px;
+  width: 67px;
   height: 42px;
   position: relative;
   margin-left: 25px;
 `;
-_c15 = OverlapGroup3;
+_c12 = OverlapGroup3;
 const TabItemSTATEDEFAULT = (0, _styledComponentsDefault.default).div`
   position: absolute;
   width: 42px;
@@ -33436,62 +33389,33 @@ const TabItemSTATEDEFAULT = (0, _styledComponentsDefault.default).div`
   top: 0;
   left: 4px;
 `;
-_c16 = TabItemSTATEDEFAULT;
+_c13 = TabItemSTATEDEFAULT;
 const OverlapGroup = (0, _styledComponentsDefault.default).div`
   position: absolute;
-  width: 49px;
+  width: 67px;
   height: 42px;
   top: 0;
   left: 0;
 `;
-_c17 = OverlapGroup;
+_c14 = OverlapGroup;
 const TabItemSTATEDEFAULT1 = (0, _styledComponentsDefault.default).div`
   width: 42px;
   height: 42px;
-  margin-left: 123px;
+  margin-left: 105px;
 `;
-_c18 = TabItemSTATEDEFAULT1;
-const IconICONfeathersearchSIZELARGESTYLE = (0, _styledComponentsDefault.default).div`
-  width: 24px;
-  height: 24px;
-  margin-left: 64px;
-  display: flex;
-`;
-_c19 = IconICONfeathersearchSIZELARGESTYLE;
-const Icon = (0, _styledComponentsDefault.default).div`
-  margin-right: 0;
-  flex: 1;
-  margin-bottom: 0;
-  width: 24.000000715255737px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  border-radius: 10.67px;
-  border: 2.6666667461395264px solid;
-  border-color: var(--masala);
-`;
-_c20 = Icon;
-const X964af6733e7b4154906a9095919e96cf = (0, _styledComponentsDefault.default).img`
-  margin-bottom: -1.9px;
-  width: 9.5712890625px;
-  height: 9.571235656738281px;
-  margin-right: -1.9px;
-  object-fit: cover;
-`;
-_c21 = X964af6733e7b4154906a9095919e96cf;
+_c15 = TabItemSTATEDEFAULT1;
 const ButtonDISPLAYELEMENTSLabelSIZEMEDIU1 = (0, _styledComponentsDefault.default).div`
-  margin-left: 40px;
   display: flex;
   align-items: flex-start;
   min-width: 144px;
 `;
-_c22 = ButtonDISPLAYELEMENTSLabelSIZEMEDIU1;
+_c16 = ButtonDISPLAYELEMENTSLabelSIZEMEDIU1;
 const LabelContainer = (0, _styledComponentsDefault.default).div`
   width: 144px;
   height: 48px;
   position: relative;
 `;
-_c23 = LabelContainer;
+_c17 = LabelContainer;
 const AreaDISPLAYELEMENTSLabelSIZEMEDIUMS = (0, _styledComponentsDefault.default).div`
   position: absolute;
   width: 144px;
@@ -33501,7 +33425,7 @@ const AreaDISPLAYELEMENTSLabelSIZEMEDIUMS = (0, _styledComponentsDefault.default
   background-color: var(--masala-2);
   cursor: pointer;
 `;
-_c24 = AreaDISPLAYELEMENTSLabelSIZEMEDIUMS;
+_c18 = AreaDISPLAYELEMENTSLabelSIZEMEDIUMS;
 const Label2 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldBabyPowder16px)}
   position: absolute;
@@ -33511,12 +33435,20 @@ const Label2 = (0, _styledComponentsDefault.default).div`
   letter-spacing: 0;
   line-height: 16px;
   white-space: nowrap;
+  cursor: pointer;
 `;
-_c25 = Label2;
+_c19 = Label2;
+const OverlapGroup5 = (0, _styledComponentsDefault.default).div`
+  width: 1366px;
+  height: 753px;
+  position: relative;
+  margin-top: 1px;
+`;
+_c20 = OverlapGroup5;
 const FeaturedContent = (0, _styledComponentsDefault.default).div`
   position: absolute;
   height: 753px;
-  top: 1109px;
+  top: 0;
   left: 0;
   display: flex;
   padding: 75px 141px;
@@ -33525,7 +33457,7 @@ const FeaturedContent = (0, _styledComponentsDefault.default).div`
   gap: 23px;
   background-color: var(--alabaster);
 `;
-_c26 = FeaturedContent;
+_c21 = FeaturedContent;
 const ImageBlock = (0, _styledComponentsDefault.default).div`
   width: 346px;
   position: relative;
@@ -33535,7 +33467,7 @@ const ImageBlock = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 470px;
 `;
-_c27 = ImageBlock;
+_c22 = ImageBlock;
 const ImageASSETsmallSIZEDefaultSTATEDEFA = (0, _styledComponentsDefault.default).div`
   width: 344px;
   height: 234px;
@@ -33543,7 +33475,7 @@ const ImageASSETsmallSIZEDefaultSTATEDEFA = (0, _styledComponentsDefault.default
   background-size: cover;
   background-position: 50% 50%;
 `;
-_c28 = ImageASSETsmallSIZEDefaultSTATEDEFA;
+_c23 = ImageASSETsmallSIZEDefaultSTATEDEFA;
 const H6 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala16px)}
   min-height: 24px;
@@ -33554,7 +33486,7 @@ const H6 = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c29 = H6;
+_c24 = H6;
 const H6TAGP = (0, _styledComponentsDefault.default).p`
   ${(0, _styledMixins.NotosansMediumSonicSilver16px)}
   width: 346px;
@@ -33564,7 +33496,7 @@ const H6TAGP = (0, _styledComponentsDefault.default).p`
   letter-spacing: 0;
   line-height: 26px;
 `;
-_c30 = H6TAGP;
+_c25 = H6TAGP;
 const FlexCol = (0, _styledComponentsDefault.default).div`
   width: 346px;
   align-self: flex-start;
@@ -33573,7 +33505,7 @@ const FlexCol = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 598px;
 `;
-_c31 = FlexCol;
+_c26 = FlexCol;
 const H6TAGH4 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala32px)}
   width: 346px;
@@ -33583,7 +33515,7 @@ const H6TAGH4 = (0, _styledComponentsDefault.default).div`
   line-height: 42px;
   white-space: nowrap;
 `;
-_c32 = H6TAGH4;
+_c27 = H6TAGH4;
 const Line = (0, _styledComponentsDefault.default).img`
   width: 80px;
   height: 1px;
@@ -33591,7 +33523,7 @@ const Line = (0, _styledComponentsDefault.default).img`
   margin-left: 11.02px;
   object-fit: cover;
 `;
-_c33 = Line;
+_c28 = Line;
 const ImageBlock1 = (0, _styledComponentsDefault.default).div`
   width: 346px;
   position: relative;
@@ -33601,7 +33533,7 @@ const ImageBlock1 = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 470px;
 `;
-_c34 = ImageBlock1;
+_c29 = ImageBlock1;
 const H61 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala16px)}
   min-height: 24px;
@@ -33612,7 +33544,7 @@ const H61 = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c35 = H61;
+_c30 = H61;
 const H62 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala16px)}
   min-height: 24px;
@@ -33623,16 +33555,16 @@ const H62 = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c36 = H62;
+_c31 = H62;
 const Line1 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 85px;
   height: 2px;
-  top: 1248px;
+  top: 139px;
   left: 640px;
   object-fit: cover;
 `;
-_c37 = Line1;
+_c32 = Line1;
 const FeaturedSolutions = (0, _styledComponentsDefault.default).div`
   width: 1366px;
   display: flex;
@@ -33642,7 +33574,7 @@ const FeaturedSolutions = (0, _styledComponentsDefault.default).div`
   min-height: 616px;
   background-color: var(--alabaster);
 `;
-_c38 = FeaturedSolutions;
+_c33 = FeaturedSolutions;
 const H6TAGH41 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala32px)}
   min-height: 45px;
@@ -33654,7 +33586,7 @@ const H6TAGH41 = (0, _styledComponentsDefault.default).div`
   line-height: 42px;
   white-space: nowrap;
 `;
-_c39 = H6TAGH41;
+_c34 = H6TAGH41;
 const Line2 = (0, _styledComponentsDefault.default).img`
   width: 80px;
   height: 2px;
@@ -33662,7 +33594,7 @@ const Line2 = (0, _styledComponentsDefault.default).img`
   margin-right: 1px;
   object-fit: cover;
 `;
-_c40 = Line2;
+_c35 = Line2;
 const ContentBlockContainer = (0, _styledComponentsDefault.default).div`
   height: 323px;
   align-self: flex-start;
@@ -33671,7 +33603,7 @@ const ContentBlockContainer = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-width: 1093px;
 `;
-_c41 = ContentBlockContainer;
+_c36 = ContentBlockContainer;
 const ContentBlock = (0, _styledComponentsDefault.default).div`
   width: 368px;
   position: relative;
@@ -33680,7 +33612,7 @@ const ContentBlock = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 323px;
 `;
-_c42 = ContentBlock;
+_c37 = ContentBlock;
 const CircleButtonSIZELARGESTATEDEFAULTST = (0, _styledComponentsDefault.default).div`
   height: 56px;
   position: relative;
@@ -33692,7 +33624,7 @@ const CircleButtonSIZELARGESTATEDEFAULTST = (0, _styledComponentsDefault.default
   background-color: var(--masala-2);
   border-radius: 1000px;
 `;
-_c43 = CircleButtonSIZELARGESTATEDEFAULTST;
+_c38 = CircleButtonSIZELARGESTATEDEFAULTST;
 const H6TAGH5 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala24px)}
   min-height: 35px;
@@ -33703,7 +33635,7 @@ const H6TAGH5 = (0, _styledComponentsDefault.default).div`
   line-height: 34px;
   white-space: nowrap;
 `;
-_c44 = H6TAGH5;
+_c39 = H6TAGH5;
 const H6TAGP1 = (0, _styledComponentsDefault.default).p`
   ${(0, _styledMixins.NotosansMediumSonicSilver16px)}
   width: 346px;
@@ -33713,7 +33645,7 @@ const H6TAGP1 = (0, _styledComponentsDefault.default).p`
   letter-spacing: 0;
   line-height: 26px;
 `;
-_c45 = H6TAGP1;
+_c40 = H6TAGP1;
 const ContentBlock1 = (0, _styledComponentsDefault.default).div`
   width: 346px;
   position: relative;
@@ -33723,7 +33655,7 @@ const ContentBlock1 = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 323px;
 `;
-_c46 = ContentBlock1;
+_c41 = ContentBlock1;
 const CircleButtonSIZELARGESTATEDEFAULTST1 = (0, _styledComponentsDefault.default).div`
   height: 56px;
   margin-right: 2px;
@@ -33734,14 +33666,14 @@ const CircleButtonSIZELARGESTATEDEFAULTST1 = (0, _styledComponentsDefault.defaul
   background-color: var(--masala-2);
   border-radius: 1000px;
 `;
-_c47 = CircleButtonSIZELARGESTATEDEFAULTST1;
+_c42 = CircleButtonSIZELARGESTATEDEFAULTST1;
 const IconICONfeatherflagSIZELARGESTATEDE = (0, _styledComponentsDefault.default).div`
   width: 24px;
   height: 24px;
   display: flex;
 `;
-_c48 = IconICONfeatherflagSIZELARGESTATEDE;
-const Icon1 = (0, _styledComponentsDefault.default).div`
+_c43 = IconICONfeatherflagSIZELARGESTATEDE;
+const Icon = (0, _styledComponentsDefault.default).div`
   margin-top: 0;
   margin-right: 0;
   flex: 1;
@@ -33751,14 +33683,14 @@ const Icon1 = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-width: 24px;
 `;
-_c49 = Icon1;
+_c44 = Icon;
 const OverlapGroup4 = (0, _styledComponentsDefault.default).div`
   width: 26px;
   height: 27px;
   position: relative;
   margin-top: -1.57px;
 `;
-_c50 = OverlapGroup4;
+_c45 = OverlapGroup4;
 const X3d05fe7984984727850d01b88e1b79b9 = (0, _styledComponentsDefault.default).div`
   position: absolute;
   width: 26px;
@@ -33769,7 +33701,7 @@ const X3d05fe7984984727850d01b88e1b79b9 = (0, _styledComponentsDefault.default).
   border: 2.4000000953674316px solid;
   border-color: var(--baby-powder);
 `;
-_c51 = X3d05fe7984984727850d01b88e1b79b9;
+_c46 = X3d05fe7984984727850d01b88e1b79b9;
 const X819422431fed4eb6Afbe6af6f7db7ec7 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 10px;
@@ -33778,7 +33710,7 @@ const X819422431fed4eb6Afbe6af6f7db7ec7 = (0, _styledComponentsDefault.default).
   left: 14px;
   object-fit: cover;
 `;
-_c52 = X819422431fed4eb6Afbe6af6f7db7ec7;
+_c47 = X819422431fed4eb6Afbe6af6f7db7ec7;
 const X7ed9d25247a34ee4B6e86bc7115b544e = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 16px;
@@ -33787,7 +33719,7 @@ const X7ed9d25247a34ee4B6e86bc7115b544e = (0, _styledComponentsDefault.default).
   left: 9px;
   object-fit: cover;
 `;
-_c53 = X7ed9d25247a34ee4B6e86bc7115b544e;
+_c48 = X7ed9d25247a34ee4B6e86bc7115b544e;
 const X2d789b0514924ff0A8ceDc75d1fc4edb = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 10px;
@@ -33796,7 +33728,7 @@ const X2d789b0514924ff0A8ceDc75d1fc4edb = (0, _styledComponentsDefault.default).
   left: 6px;
   object-fit: cover;
 `;
-_c54 = X2d789b0514924ff0A8ceDc75d1fc4edb;
+_c49 = X2d789b0514924ff0A8ceDc75d1fc4edb;
 const X923e5d72428445bbA212382ce76b0607 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 10px;
@@ -33805,7 +33737,7 @@ const X923e5d72428445bbA212382ce76b0607 = (0, _styledComponentsDefault.default).
   left: 2px;
   object-fit: cover;
 `;
-_c55 = X923e5d72428445bbA212382ce76b0607;
+_c50 = X923e5d72428445bbA212382ce76b0607;
 const C17249bf42884a28B7a462bc0aae00cb = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 16px;
@@ -33814,7 +33746,7 @@ const C17249bf42884a28B7a462bc0aae00cb = (0, _styledComponentsDefault.default).i
   left: 1px;
   object-fit: cover;
 `;
-_c56 = C17249bf42884a28B7a462bc0aae00cb;
+_c51 = C17249bf42884a28B7a462bc0aae00cb;
 const X89388002Fd2f4acdB521D1de76716eb3 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 10px;
@@ -33823,7 +33755,7 @@ const X89388002Fd2f4acdB521D1de76716eb3 = (0, _styledComponentsDefault.default).
   left: 10px;
   object-fit: cover;
 `;
-_c57 = X89388002Fd2f4acdB521D1de76716eb3;
+_c52 = X89388002Fd2f4acdB521D1de76716eb3;
 const H6TAGH51 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala24px)}
   min-height: 35px;
@@ -33834,7 +33766,7 @@ const H6TAGH51 = (0, _styledComponentsDefault.default).div`
   line-height: 34px;
   white-space: nowrap;
 `;
-_c58 = H6TAGH51;
+_c53 = H6TAGH51;
 const ContentBlock2 = (0, _styledComponentsDefault.default).div`
   width: 346px;
   position: relative;
@@ -33844,8 +33776,8 @@ const ContentBlock2 = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 323px;
 `;
-_c59 = ContentBlock2;
-const Icon2 = (0, _styledComponentsDefault.default).div`
+_c54 = ContentBlock2;
+const Icon1 = (0, _styledComponentsDefault.default).div`
   margin-top: 0;
   margin-right: 0;
   flex: 1;
@@ -33855,14 +33787,14 @@ const Icon2 = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-width: 24px;
 `;
-_c60 = Icon2;
-const OverlapGroup6 = (0, _styledComponentsDefault.default).div`
+_c55 = Icon1;
+const OverlapGroup7 = (0, _styledComponentsDefault.default).div`
   width: 26px;
   height: 26px;
   position: relative;
   margin-top: -1.09px;
 `;
-_c61 = OverlapGroup6;
+_c56 = OverlapGroup7;
 const X16f95ded67b24051869a08494c5ba75b = (0, _styledComponentsDefault.default).div`
   position: absolute;
   width: 20px;
@@ -33873,7 +33805,7 @@ const X16f95ded67b24051869a08494c5ba75b = (0, _styledComponentsDefault.default).
   border: 2.1818182468414307px solid;
   border-color: var(--baby-powder);
 `;
-_c62 = X16f95ded67b24051869a08494c5ba75b;
+_c57 = X16f95ded67b24051869a08494c5ba75b;
 const X55165e0cDafb4b3b90846da0ad18dac0 = (0, _styledComponentsDefault.default).div`
   position: absolute;
   width: 9px;
@@ -33883,7 +33815,7 @@ const X55165e0cDafb4b3b90846da0ad18dac0 = (0, _styledComponentsDefault.default).
   border: 2.1818182468414307px solid;
   border-color: var(--baby-powder);
 `;
-_c63 = X55165e0cDafb4b3b90846da0ad18dac0;
+_c58 = X55165e0cDafb4b3b90846da0ad18dac0;
 const X56b63722Dcfb465bA2861a7bbdde2308 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 2px;
@@ -33892,7 +33824,7 @@ const X56b63722Dcfb465bA2861a7bbdde2308 = (0, _styledComponentsDefault.default).
   left: 9px;
   object-fit: cover;
 `;
-_c64 = X56b63722Dcfb465bA2861a7bbdde2308;
+_c59 = X56b63722Dcfb465bA2861a7bbdde2308;
 const X2d1827eb55ba44ddA3fd2d1c572221e1 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 2px;
@@ -33901,7 +33833,7 @@ const X2d1827eb55ba44ddA3fd2d1c572221e1 = (0, _styledComponentsDefault.default).
   left: 15px;
   object-fit: cover;
 `;
-_c65 = X2d1827eb55ba44ddA3fd2d1c572221e1;
+_c60 = X2d1827eb55ba44ddA3fd2d1c572221e1;
 const F9f651b98aa942859ff2E08f296a55ac = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 2px;
@@ -33910,7 +33842,7 @@ const F9f651b98aa942859ff2E08f296a55ac = (0, _styledComponentsDefault.default).i
   left: 9px;
   object-fit: cover;
 `;
-_c66 = F9f651b98aa942859ff2E08f296a55ac;
+_c61 = F9f651b98aa942859ff2E08f296a55ac;
 const X910180c026624efdAec345d3c00a2c7b = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 2px;
@@ -33919,7 +33851,7 @@ const X910180c026624efdAec345d3c00a2c7b = (0, _styledComponentsDefault.default).
   left: 15px;
   object-fit: cover;
 `;
-_c67 = X910180c026624efdAec345d3c00a2c7b;
+_c62 = X910180c026624efdAec345d3c00a2c7b;
 const F3eced8c7f0c4f42923348442d0f388f = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 5px;
@@ -33928,7 +33860,7 @@ const F3eced8c7f0c4f42923348442d0f388f = (0, _styledComponentsDefault.default).i
   left: 21px;
   object-fit: cover;
 `;
-_c68 = F3eced8c7f0c4f42923348442d0f388f;
+_c63 = F3eced8c7f0c4f42923348442d0f388f;
 const Fcf690c096bc49259b4479a50a53ee89 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 5px;
@@ -33937,7 +33869,7 @@ const Fcf690c096bc49259b4479a50a53ee89 = (0, _styledComponentsDefault.default).i
   left: 21px;
   object-fit: cover;
 `;
-_c69 = Fcf690c096bc49259b4479a50a53ee89;
+_c64 = Fcf690c096bc49259b4479a50a53ee89;
 const X30bc77c36fa14efcBa1984649da61e30 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 5px;
@@ -33946,7 +33878,7 @@ const X30bc77c36fa14efcBa1984649da61e30 = (0, _styledComponentsDefault.default).
   left: 0;
   object-fit: cover;
 `;
-_c70 = X30bc77c36fa14efcBa1984649da61e30;
+_c65 = X30bc77c36fa14efcBa1984649da61e30;
 const B1c6b763Dc11465cB9602f7b78b5528c = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 5px;
@@ -33955,7 +33887,7 @@ const B1c6b763Dc11465cB9602f7b78b5528c = (0, _styledComponentsDefault.default).i
   left: 0;
   object-fit: cover;
 `;
-_c71 = B1c6b763Dc11465cB9602f7b78b5528c;
+_c66 = B1c6b763Dc11465cB9602f7b78b5528c;
 const H6TAGH52 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala24px)}
   min-height: 35px;
@@ -33966,14 +33898,14 @@ const H6TAGH52 = (0, _styledComponentsDefault.default).div`
   line-height: 34px;
   white-space: nowrap;
 `;
-_c72 = H6TAGH52;
+_c67 = H6TAGH52;
 const PromotionBox = (0, _styledComponentsDefault.default).div`
   width: 1366px;
   height: 665px;
   background-size: cover;
   background-position: 50% 50%;
 `;
-_c73 = PromotionBox;
+_c68 = PromotionBox;
 const Footer = (0, _styledComponentsDefault.default).footer`
   width: auto;
   height: 504px;
@@ -33985,7 +33917,7 @@ const Footer = (0, _styledComponentsDefault.default).footer`
   min-width: 1668px;
   background-color: transparent;
 `;
-_c74 = Footer;
+_c69 = Footer;
 const FlexCol1 = (0, _styledComponentsDefault.default).div`
   width: 1366px;
   display: flex;
@@ -33996,14 +33928,14 @@ const FlexCol1 = (0, _styledComponentsDefault.default).div`
   gap: 9px;
   background-color: #d0d0d0;
 `;
-_c75 = FlexCol1;
+_c70 = FlexCol1;
 const FlexRow = (0, _styledComponentsDefault.default).div`
   height: 198px;
   display: flex;
   align-items: center;
   min-width: 1012px;
 `;
-_c76 = FlexRow;
+_c71 = FlexRow;
 const StylestyletagContainer = (0, _styledComponentsDefault.default).div`
   width: 346px;
   align-self: flex-start;
@@ -34013,7 +33945,7 @@ const StylestyletagContainer = (0, _styledComponentsDefault.default).div`
   min-height: 130px;
   gap: 8px;
 `;
-_c77 = StylestyletagContainer;
+_c72 = StylestyletagContainer;
 const CompanySTYLESTYLE3TAGH4 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala32px)}
   min-height: 45px;
@@ -34021,7 +33953,7 @@ const CompanySTYLESTYLE3TAGH4 = (0, _styledComponentsDefault.default).div`
   line-height: 42px;
   white-space: nowrap;
 `;
-_c78 = CompanySTYLESTYLE3TAGH4;
+_c73 = CompanySTYLESTYLE3TAGH4;
 const DescriptionSTYLESTYLE3TAGP = (0, _styledComponentsDefault.default).p`
   ${(0, _styledMixins.NotosansMediumSonicSilver16px)}
   width: 346px;
@@ -34029,7 +33961,7 @@ const DescriptionSTYLESTYLE3TAGP = (0, _styledComponentsDefault.default).p`
   letter-spacing: 0;
   line-height: 26px;
 `;
-_c79 = DescriptionSTYLESTYLE3TAGP;
+_c74 = DescriptionSTYLESTYLE3TAGP;
 const StylestyletagContainer1 = (0, _styledComponentsDefault.default).div`
   width: 204px;
   margin-left: 146px;
@@ -34039,7 +33971,7 @@ const StylestyletagContainer1 = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 192px;
 `;
-_c80 = StylestyletagContainer1;
+_c75 = StylestyletagContainer1;
 const ProductsSTYLESTYLE3TAGH5 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala24px)}
   min-height: 35px;
@@ -34049,7 +33981,7 @@ const ProductsSTYLESTYLE3TAGH5 = (0, _styledComponentsDefault.default).div`
   line-height: 34px;
   white-space: nowrap;
 `;
-_c81 = ProductsSTYLESTYLE3TAGH5;
+_c76 = ProductsSTYLESTYLE3TAGH5;
 const ProductSTYLESTYLE3TAGUIL = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34060,7 +33992,7 @@ const ProductSTYLESTYLE3TAGUIL = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c82 = ProductSTYLESTYLE3TAGUIL;
+_c77 = ProductSTYLESTYLE3TAGUIL;
 const ProductSTYLESTYLE3TAGUIL1 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34071,7 +34003,7 @@ const ProductSTYLESTYLE3TAGUIL1 = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c83 = ProductSTYLESTYLE3TAGUIL1;
+_c78 = ProductSTYLESTYLE3TAGUIL1;
 const ProductSTYLESTYLE3TAGUIL2 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34082,7 +34014,7 @@ const ProductSTYLESTYLE3TAGUIL2 = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c84 = ProductSTYLESTYLE3TAGUIL2;
+_c79 = ProductSTYLESTYLE3TAGUIL2;
 const StylestyletagContainer2 = (0, _styledComponentsDefault.default).div`
   width: 150px;
   margin-left: 18px;
@@ -34092,7 +34024,7 @@ const StylestyletagContainer2 = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 192px;
 `;
-_c85 = StylestyletagContainer2;
+_c80 = StylestyletagContainer2;
 const ServicesSTYLESTYLE3TAGH5 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala24px)}
   min-height: 35px;
@@ -34101,7 +34033,7 @@ const ServicesSTYLESTYLE3TAGH5 = (0, _styledComponentsDefault.default).div`
   line-height: 34px;
   white-space: nowrap;
 `;
-_c86 = ServicesSTYLESTYLE3TAGH5;
+_c81 = ServicesSTYLESTYLE3TAGH5;
 const ServiceSTYLESTYLE3TAGUIL = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34112,7 +34044,7 @@ const ServiceSTYLESTYLE3TAGUIL = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c87 = ServiceSTYLESTYLE3TAGUIL;
+_c82 = ServiceSTYLESTYLE3TAGUIL;
 const ServiceSTYLESTYLE3TAGUIL1 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34123,7 +34055,7 @@ const ServiceSTYLESTYLE3TAGUIL1 = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c88 = ServiceSTYLESTYLE3TAGUIL1;
+_c83 = ServiceSTYLESTYLE3TAGUIL1;
 const ServiceSTYLESTYLE3TAGUIL2 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34134,7 +34066,7 @@ const ServiceSTYLESTYLE3TAGUIL2 = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c89 = ServiceSTYLESTYLE3TAGUIL2;
+_c84 = ServiceSTYLESTYLE3TAGUIL2;
 const StylestyletagContainer3 = (0, _styledComponentsDefault.default).div`
   width: 86px;
   align-self: flex-end;
@@ -34144,7 +34076,7 @@ const StylestyletagContainer3 = (0, _styledComponentsDefault.default).div`
   align-items: center;
   min-height: 194px;
 `;
-_c90 = StylestyletagContainer3;
+_c85 = StylestyletagContainer3;
 const ResourcesSTYLESTYLE3TAGH5 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala24px)}
   min-height: 35px;
@@ -34153,7 +34085,7 @@ const ResourcesSTYLESTYLE3TAGH5 = (0, _styledComponentsDefault.default).div`
   line-height: 34px;
   white-space: nowrap;
 `;
-_c91 = ResourcesSTYLESTYLE3TAGH5;
+_c86 = ResourcesSTYLESTYLE3TAGH5;
 const ResourceSTYLESTYLE3TAGUIL = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34164,7 +34096,7 @@ const ResourceSTYLESTYLE3TAGUIL = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c92 = ResourceSTYLESTYLE3TAGUIL;
+_c87 = ResourceSTYLESTYLE3TAGUIL;
 const ResourceSTYLESTYLE3TAGUIL1 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34175,7 +34107,7 @@ const ResourceSTYLESTYLE3TAGUIL1 = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c93 = ResourceSTYLESTYLE3TAGUIL1;
+_c88 = ResourceSTYLESTYLE3TAGUIL1;
 const ResourceSTYLESTYLE3TAGUIL2 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala18px)}
   min-height: 26px;
@@ -34186,7 +34118,7 @@ const ResourceSTYLESTYLE3TAGUIL2 = (0, _styledComponentsDefault.default).div`
   line-height: 18px;
   white-space: nowrap;
 `;
-_c94 = ResourceSTYLESTYLE3TAGUIL2;
+_c89 = ResourceSTYLESTYLE3TAGUIL2;
 const SizemediumstateContainer = (0, _styledComponentsDefault.default).div`
   margin-left: 14px;
   display: flex;
@@ -34194,20 +34126,20 @@ const SizemediumstateContainer = (0, _styledComponentsDefault.default).div`
   min-width: 276px;
   gap: 44px;
 `;
-_c95 = SizemediumstateContainer;
+_c90 = SizemediumstateContainer;
 const IconICONfeatherfacebookSIZEMEDIUMST = (0, _styledComponentsDefault.default).div`
   width: 20px;
   height: 20px;
   margin-top: 0;
   display: flex;
 `;
-_c96 = IconICONfeatherfacebookSIZEMEDIUMST;
-const Icon3 = (0, _styledComponentsDefault.default).div`
+_c91 = IconICONfeatherfacebookSIZEMEDIUMST;
+const Icon2 = (0, _styledComponentsDefault.default).div`
   margin-left: 4.5px;
   width: 11px;
   display: flex;
 `;
-_c97 = Icon3;
+_c92 = Icon2;
 const X6c69ed490a3e459081762a1816c1ca6e = (0, _styledComponentsDefault.default).img`
   margin-top: -1px;
   margin-left: -1px;
@@ -34217,8 +34149,8 @@ const X6c69ed490a3e459081762a1816c1ca6e = (0, _styledComponentsDefault.default).
   width: 13px;
   object-fit: cover;
 `;
-_c98 = X6c69ed490a3e459081762a1816c1ca6e;
-const Icon4 = (0, _styledComponentsDefault.default).div`
+_c93 = X6c69ed490a3e459081762a1816c1ca6e;
+const Icon3 = (0, _styledComponentsDefault.default).div`
   margin-top: 1.8px;
   margin-right: 0;
   flex: 1;
@@ -34226,7 +34158,7 @@ const Icon4 = (0, _styledComponentsDefault.default).div`
   width: 20px;
   display: flex;
 `;
-_c99 = Icon4;
+_c94 = Icon3;
 const IconTwitter = (0, _styledComponentsDefault.default).img`
   margin-top: -1px;
   margin-left: -0.9px;
@@ -34236,8 +34168,8 @@ const IconTwitter = (0, _styledComponentsDefault.default).img`
   width: 21.81817626953125px;
   object-fit: cover;
 `;
-_c100 = IconTwitter;
-const Icon5 = (0, _styledComponentsDefault.default).div`
+_c95 = IconTwitter;
+const Icon4 = (0, _styledComponentsDefault.default).div`
   margin-top: 0.5px;
   margin-left: 0;
   flex: 1;
@@ -34249,7 +34181,7 @@ const Icon5 = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-height: calc(100% - 1px);
 `;
-_c101 = Icon5;
+_c96 = Icon4;
 const B6774697Ce254077825285dbbbc98619 = (0, _styledComponentsDefault.default).div`
   width: 6px;
   height: 6px;
@@ -34258,7 +34190,7 @@ const B6774697Ce254077825285dbbbc98619 = (0, _styledComponentsDefault.default).d
   border: 2px solid;
   border-color: var(--ship-gray-2);
 `;
-_c102 = B6774697Ce254077825285dbbbc98619;
+_c97 = B6774697Ce254077825285dbbbc98619;
 const FlexRow1 = (0, _styledComponentsDefault.default).div`
   margin-left: -1px;
   display: flex;
@@ -34266,7 +34198,7 @@ const FlexRow1 = (0, _styledComponentsDefault.default).div`
   min-width: 22px;
   gap: 2px;
 `;
-_c103 = FlexRow1;
+_c98 = FlexRow1;
 const Fe6285e83ae34dd988b17417be5ad347 = (0, _styledComponentsDefault.default).div`
   width: 6px;
   height: 14px;
@@ -34274,14 +34206,14 @@ const Fe6285e83ae34dd988b17417be5ad347 = (0, _styledComponentsDefault.default).d
   border: 2px solid;
   border-color: var(--ship-gray-2);
 `;
-_c104 = Fe6285e83ae34dd988b17417be5ad347;
+_c99 = Fe6285e83ae34dd988b17417be5ad347;
 const E7fa66f167a942a0891523c7ea7b14a0 = (0, _styledComponentsDefault.default).img`
   width: 14px;
   height: 15px;
   object-fit: cover;
 `;
-_c105 = E7fa66f167a942a0891523c7ea7b14a0;
-const Icon6 = (0, _styledComponentsDefault.default).div`
+_c100 = E7fa66f167a942a0891523c7ea7b14a0;
+const Icon5 = (0, _styledComponentsDefault.default).div`
   margin-top: 3px;
   margin-left: 0;
   margin-right: 0;
@@ -34291,8 +34223,8 @@ const Icon6 = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-width: 20.000001907348633px;
 `;
-_c106 = Icon6;
-const OverlapGroup7 = (0, _styledComponentsDefault.default).div`
+_c101 = Icon5;
+const OverlapGroup8 = (0, _styledComponentsDefault.default).div`
   height: 16px;
   margin-left: -1px;
   margin-top: -0.91px;
@@ -34304,27 +34236,27 @@ const OverlapGroup7 = (0, _styledComponentsDefault.default).div`
   background-size: cover;
   background-position: 50% 50%;
 `;
-_c107 = OverlapGroup7;
+_c102 = OverlapGroup8;
 const X18d10ae04802479398792ad795373a07 = (0, _styledComponentsDefault.default).img`
   width: 7px;
   height: 8px;
   object-fit: cover;
 `;
-_c108 = X18d10ae04802479398792ad795373a07;
+_c103 = X18d10ae04802479398792ad795373a07;
 const IconICONfeatherphoneSIZEMEDIUMSTATE = (0, _styledComponentsDefault.default).div`
   width: 20px;
   height: 20px;
   display: flex;
 `;
-_c109 = IconICONfeatherphoneSIZEMEDIUMSTATE;
-const Icon7 = (0, _styledComponentsDefault.default).div`
+_c104 = IconICONfeatherphoneSIZEMEDIUMSTATE;
+const Icon6 = (0, _styledComponentsDefault.default).div`
   margin-left: 0;
   margin-right: 0;
   flex: 1;
   width: 19.959915161132812px;
   display: flex;
 `;
-_c110 = Icon7;
+_c105 = Icon6;
 const IconCall = (0, _styledComponentsDefault.default).img`
   margin-top: -1px;
   margin-left: -1px;
@@ -34334,13 +34266,13 @@ const IconCall = (0, _styledComponentsDefault.default).img`
   width: 21.96856689453125px;
   object-fit: cover;
 `;
-_c111 = IconCall;
+_c106 = IconCall;
 const FooterStrip = (0, _styledComponentsDefault.default).div`
   display: flex;
   align-items: flex-start;
   min-width: 1668px;
 `;
-_c112 = FooterStrip;
+_c107 = FooterStrip;
 const StylestyletaguiSContainer = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansBoldMasala13px)}
   height: 80px;
@@ -34351,7 +34283,7 @@ const StylestyletaguiSContainer = (0, _styledComponentsDefault.default).div`
   gap: 666px;
   background-color: var(--cararra);
 `;
-_c113 = StylestyletaguiSContainer;
+_c108 = StylestyletaguiSContainer;
 const CopyrightSTYLESTYLE2TAGUIS = (0, _styledComponentsDefault.default).p`
   min-height: 20px;
   min-width: 234px;
@@ -34360,7 +34292,7 @@ const CopyrightSTYLESTYLE2TAGUIS = (0, _styledComponentsDefault.default).p`
   line-height: 19px;
   white-space: nowrap;
 `;
-_c114 = CopyrightSTYLESTYLE2TAGUIS;
+_c109 = CopyrightSTYLESTYLE2TAGUIS;
 const PrivacyPolicySTYLESTYLE2TAGUIS = (0, _styledComponentsDefault.default).div`
   min-height: 20px;
   min-width: 148px;
@@ -34369,132 +34301,127 @@ const PrivacyPolicySTYLESTYLE2TAGUIS = (0, _styledComponentsDefault.default).div
   line-height: 19px;
   white-space: nowrap;
 `;
-_c115 = PrivacyPolicySTYLESTYLE2TAGUIS;
-exports.default = ClassicHome;
-var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22, _c23, _c24, _c25, _c26, _c27, _c28, _c29, _c30, _c31, _c32, _c33, _c34, _c35, _c36, _c37, _c38, _c39, _c40, _c41, _c42, _c43, _c44, _c45, _c46, _c47, _c48, _c49, _c50, _c51, _c52, _c53, _c54, _c55, _c56, _c57, _c58, _c59, _c60, _c61, _c62, _c63, _c64, _c65, _c66, _c67, _c68, _c69, _c70, _c71, _c72, _c73, _c74, _c75, _c76, _c77, _c78, _c79, _c80, _c81, _c82, _c83, _c84, _c85, _c86, _c87, _c88, _c89, _c90, _c91, _c92, _c93, _c94, _c95, _c96, _c97, _c98, _c99, _c100, _c101, _c102, _c103, _c104, _c105, _c106, _c107, _c108, _c109, _c110, _c111, _c112, _c113, _c114, _c115;
-$RefreshReg$(_c, "ClassicHome");
-$RefreshReg$(_c1, "OverlapGroup5");
-$RefreshReg$(_c2, "Hero");
-$RefreshReg$(_c3, "LoremIpsumDolorSi");
-$RefreshReg$(_c4, "HeroText");
-$RefreshReg$(_c5, "VanjaMatijevicNRdOmI4rfp4Unsplash");
-$RefreshReg$(_c6, "Header");
-$RefreshReg$(_c7, "Tabs");
-$RefreshReg$(_c8, "OverlapGroup2");
-$RefreshReg$(_c9, "Area");
-$RefreshReg$(_c10, "BarSTATEACTIVE");
-$RefreshReg$(_c11, "Label");
-$RefreshReg$(_c12, "Label1");
-$RefreshReg$(_c13, "OverlapGroup1");
-$RefreshReg$(_c14, "Area1");
-$RefreshReg$(_c15, "OverlapGroup3");
-$RefreshReg$(_c16, "TabItemSTATEDEFAULT");
-$RefreshReg$(_c17, "OverlapGroup");
-$RefreshReg$(_c18, "TabItemSTATEDEFAULT1");
-$RefreshReg$(_c19, "IconICONfeathersearchSIZELARGESTYLE");
-$RefreshReg$(_c20, "Icon");
-$RefreshReg$(_c21, "X964af6733e7b4154906a9095919e96cf");
-$RefreshReg$(_c22, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU1");
-$RefreshReg$(_c23, "LabelContainer");
-$RefreshReg$(_c24, "AreaDISPLAYELEMENTSLabelSIZEMEDIUMS");
-$RefreshReg$(_c25, "Label2");
-$RefreshReg$(_c26, "FeaturedContent");
-$RefreshReg$(_c27, "ImageBlock");
-$RefreshReg$(_c28, "ImageASSETsmallSIZEDefaultSTATEDEFA");
-$RefreshReg$(_c29, "H6");
-$RefreshReg$(_c30, "H6TAGP");
-$RefreshReg$(_c31, "FlexCol");
-$RefreshReg$(_c32, "H6TAGH4");
-$RefreshReg$(_c33, "Line");
-$RefreshReg$(_c34, "ImageBlock1");
-$RefreshReg$(_c35, "H61");
-$RefreshReg$(_c36, "H62");
-$RefreshReg$(_c37, "Line1");
-$RefreshReg$(_c38, "FeaturedSolutions");
-$RefreshReg$(_c39, "H6TAGH41");
-$RefreshReg$(_c40, "Line2");
-$RefreshReg$(_c41, "ContentBlockContainer");
-$RefreshReg$(_c42, "ContentBlock");
-$RefreshReg$(_c43, "CircleButtonSIZELARGESTATEDEFAULTST");
-$RefreshReg$(_c44, "H6TAGH5");
-$RefreshReg$(_c45, "H6TAGP1");
-$RefreshReg$(_c46, "ContentBlock1");
-$RefreshReg$(_c47, "CircleButtonSIZELARGESTATEDEFAULTST1");
-$RefreshReg$(_c48, "IconICONfeatherflagSIZELARGESTATEDE");
-$RefreshReg$(_c49, "Icon1");
-$RefreshReg$(_c50, "OverlapGroup4");
-$RefreshReg$(_c51, "X3d05fe7984984727850d01b88e1b79b9");
-$RefreshReg$(_c52, "X819422431fed4eb6Afbe6af6f7db7ec7");
-$RefreshReg$(_c53, "X7ed9d25247a34ee4B6e86bc7115b544e");
-$RefreshReg$(_c54, "X2d789b0514924ff0A8ceDc75d1fc4edb");
-$RefreshReg$(_c55, "X923e5d72428445bbA212382ce76b0607");
-$RefreshReg$(_c56, "C17249bf42884a28B7a462bc0aae00cb");
-$RefreshReg$(_c57, "X89388002Fd2f4acdB521D1de76716eb3");
-$RefreshReg$(_c58, "H6TAGH51");
-$RefreshReg$(_c59, "ContentBlock2");
-$RefreshReg$(_c60, "Icon2");
-$RefreshReg$(_c61, "OverlapGroup6");
-$RefreshReg$(_c62, "X16f95ded67b24051869a08494c5ba75b");
-$RefreshReg$(_c63, "X55165e0cDafb4b3b90846da0ad18dac0");
-$RefreshReg$(_c64, "X56b63722Dcfb465bA2861a7bbdde2308");
-$RefreshReg$(_c65, "X2d1827eb55ba44ddA3fd2d1c572221e1");
-$RefreshReg$(_c66, "F9f651b98aa942859ff2E08f296a55ac");
-$RefreshReg$(_c67, "X910180c026624efdAec345d3c00a2c7b");
-$RefreshReg$(_c68, "F3eced8c7f0c4f42923348442d0f388f");
-$RefreshReg$(_c69, "Fcf690c096bc49259b4479a50a53ee89");
-$RefreshReg$(_c70, "X30bc77c36fa14efcBa1984649da61e30");
-$RefreshReg$(_c71, "B1c6b763Dc11465cB9602f7b78b5528c");
-$RefreshReg$(_c72, "H6TAGH52");
-$RefreshReg$(_c73, "PromotionBox");
-$RefreshReg$(_c74, "Footer");
-$RefreshReg$(_c75, "FlexCol1");
-$RefreshReg$(_c76, "FlexRow");
-$RefreshReg$(_c77, "StylestyletagContainer");
-$RefreshReg$(_c78, "CompanySTYLESTYLE3TAGH4");
-$RefreshReg$(_c79, "DescriptionSTYLESTYLE3TAGP");
-$RefreshReg$(_c80, "StylestyletagContainer1");
-$RefreshReg$(_c81, "ProductsSTYLESTYLE3TAGH5");
-$RefreshReg$(_c82, "ProductSTYLESTYLE3TAGUIL");
-$RefreshReg$(_c83, "ProductSTYLESTYLE3TAGUIL1");
-$RefreshReg$(_c84, "ProductSTYLESTYLE3TAGUIL2");
-$RefreshReg$(_c85, "StylestyletagContainer2");
-$RefreshReg$(_c86, "ServicesSTYLESTYLE3TAGH5");
-$RefreshReg$(_c87, "ServiceSTYLESTYLE3TAGUIL");
-$RefreshReg$(_c88, "ServiceSTYLESTYLE3TAGUIL1");
-$RefreshReg$(_c89, "ServiceSTYLESTYLE3TAGUIL2");
-$RefreshReg$(_c90, "StylestyletagContainer3");
-$RefreshReg$(_c91, "ResourcesSTYLESTYLE3TAGH5");
-$RefreshReg$(_c92, "ResourceSTYLESTYLE3TAGUIL");
-$RefreshReg$(_c93, "ResourceSTYLESTYLE3TAGUIL1");
-$RefreshReg$(_c94, "ResourceSTYLESTYLE3TAGUIL2");
-$RefreshReg$(_c95, "SizemediumstateContainer");
-$RefreshReg$(_c96, "IconICONfeatherfacebookSIZEMEDIUMST");
-$RefreshReg$(_c97, "Icon3");
-$RefreshReg$(_c98, "X6c69ed490a3e459081762a1816c1ca6e");
-$RefreshReg$(_c99, "Icon4");
-$RefreshReg$(_c100, "IconTwitter");
+_c110 = PrivacyPolicySTYLESTYLE2TAGUIS;
+exports.default = Home;
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22, _c23, _c24, _c25, _c26, _c27, _c28, _c29, _c30, _c31, _c32, _c33, _c34, _c35, _c36, _c37, _c38, _c39, _c40, _c41, _c42, _c43, _c44, _c45, _c46, _c47, _c48, _c49, _c50, _c51, _c52, _c53, _c54, _c55, _c56, _c57, _c58, _c59, _c60, _c61, _c62, _c63, _c64, _c65, _c66, _c67, _c68, _c69, _c70, _c71, _c72, _c73, _c74, _c75, _c76, _c77, _c78, _c79, _c80, _c81, _c82, _c83, _c84, _c85, _c86, _c87, _c88, _c89, _c90, _c91, _c92, _c93, _c94, _c95, _c96, _c97, _c98, _c99, _c100, _c101, _c102, _c103, _c104, _c105, _c106, _c107, _c108, _c109, _c110;
+$RefreshReg$(_c, "OverlapGroup6");
+$RefreshReg$(_c1, "Hero");
+$RefreshReg$(_c2, "LoremIpsumDolorSi");
+$RefreshReg$(_c3, "Header");
+$RefreshReg$(_c4, "Tabs");
+$RefreshReg$(_c5, "OverlapGroup2");
+$RefreshReg$(_c6, "Area");
+$RefreshReg$(_c7, "BarSTATEACTIVE");
+$RefreshReg$(_c8, "Label");
+$RefreshReg$(_c9, "Label1");
+$RefreshReg$(_c10, "OverlapGroup1");
+$RefreshReg$(_c11, "Area1");
+$RefreshReg$(_c12, "OverlapGroup3");
+$RefreshReg$(_c13, "TabItemSTATEDEFAULT");
+$RefreshReg$(_c14, "OverlapGroup");
+$RefreshReg$(_c15, "TabItemSTATEDEFAULT1");
+$RefreshReg$(_c16, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU1");
+$RefreshReg$(_c17, "LabelContainer");
+$RefreshReg$(_c18, "AreaDISPLAYELEMENTSLabelSIZEMEDIUMS");
+$RefreshReg$(_c19, "Label2");
+$RefreshReg$(_c20, "OverlapGroup5");
+$RefreshReg$(_c21, "FeaturedContent");
+$RefreshReg$(_c22, "ImageBlock");
+$RefreshReg$(_c23, "ImageASSETsmallSIZEDefaultSTATEDEFA");
+$RefreshReg$(_c24, "H6");
+$RefreshReg$(_c25, "H6TAGP");
+$RefreshReg$(_c26, "FlexCol");
+$RefreshReg$(_c27, "H6TAGH4");
+$RefreshReg$(_c28, "Line");
+$RefreshReg$(_c29, "ImageBlock1");
+$RefreshReg$(_c30, "H61");
+$RefreshReg$(_c31, "H62");
+$RefreshReg$(_c32, "Line1");
+$RefreshReg$(_c33, "FeaturedSolutions");
+$RefreshReg$(_c34, "H6TAGH41");
+$RefreshReg$(_c35, "Line2");
+$RefreshReg$(_c36, "ContentBlockContainer");
+$RefreshReg$(_c37, "ContentBlock");
+$RefreshReg$(_c38, "CircleButtonSIZELARGESTATEDEFAULTST");
+$RefreshReg$(_c39, "H6TAGH5");
+$RefreshReg$(_c40, "H6TAGP1");
+$RefreshReg$(_c41, "ContentBlock1");
+$RefreshReg$(_c42, "CircleButtonSIZELARGESTATEDEFAULTST1");
+$RefreshReg$(_c43, "IconICONfeatherflagSIZELARGESTATEDE");
+$RefreshReg$(_c44, "Icon");
+$RefreshReg$(_c45, "OverlapGroup4");
+$RefreshReg$(_c46, "X3d05fe7984984727850d01b88e1b79b9");
+$RefreshReg$(_c47, "X819422431fed4eb6Afbe6af6f7db7ec7");
+$RefreshReg$(_c48, "X7ed9d25247a34ee4B6e86bc7115b544e");
+$RefreshReg$(_c49, "X2d789b0514924ff0A8ceDc75d1fc4edb");
+$RefreshReg$(_c50, "X923e5d72428445bbA212382ce76b0607");
+$RefreshReg$(_c51, "C17249bf42884a28B7a462bc0aae00cb");
+$RefreshReg$(_c52, "X89388002Fd2f4acdB521D1de76716eb3");
+$RefreshReg$(_c53, "H6TAGH51");
+$RefreshReg$(_c54, "ContentBlock2");
+$RefreshReg$(_c55, "Icon1");
+$RefreshReg$(_c56, "OverlapGroup7");
+$RefreshReg$(_c57, "X16f95ded67b24051869a08494c5ba75b");
+$RefreshReg$(_c58, "X55165e0cDafb4b3b90846da0ad18dac0");
+$RefreshReg$(_c59, "X56b63722Dcfb465bA2861a7bbdde2308");
+$RefreshReg$(_c60, "X2d1827eb55ba44ddA3fd2d1c572221e1");
+$RefreshReg$(_c61, "F9f651b98aa942859ff2E08f296a55ac");
+$RefreshReg$(_c62, "X910180c026624efdAec345d3c00a2c7b");
+$RefreshReg$(_c63, "F3eced8c7f0c4f42923348442d0f388f");
+$RefreshReg$(_c64, "Fcf690c096bc49259b4479a50a53ee89");
+$RefreshReg$(_c65, "X30bc77c36fa14efcBa1984649da61e30");
+$RefreshReg$(_c66, "B1c6b763Dc11465cB9602f7b78b5528c");
+$RefreshReg$(_c67, "H6TAGH52");
+$RefreshReg$(_c68, "PromotionBox");
+$RefreshReg$(_c69, "Footer");
+$RefreshReg$(_c70, "FlexCol1");
+$RefreshReg$(_c71, "FlexRow");
+$RefreshReg$(_c72, "StylestyletagContainer");
+$RefreshReg$(_c73, "CompanySTYLESTYLE3TAGH4");
+$RefreshReg$(_c74, "DescriptionSTYLESTYLE3TAGP");
+$RefreshReg$(_c75, "StylestyletagContainer1");
+$RefreshReg$(_c76, "ProductsSTYLESTYLE3TAGH5");
+$RefreshReg$(_c77, "ProductSTYLESTYLE3TAGUIL");
+$RefreshReg$(_c78, "ProductSTYLESTYLE3TAGUIL1");
+$RefreshReg$(_c79, "ProductSTYLESTYLE3TAGUIL2");
+$RefreshReg$(_c80, "StylestyletagContainer2");
+$RefreshReg$(_c81, "ServicesSTYLESTYLE3TAGH5");
+$RefreshReg$(_c82, "ServiceSTYLESTYLE3TAGUIL");
+$RefreshReg$(_c83, "ServiceSTYLESTYLE3TAGUIL1");
+$RefreshReg$(_c84, "ServiceSTYLESTYLE3TAGUIL2");
+$RefreshReg$(_c85, "StylestyletagContainer3");
+$RefreshReg$(_c86, "ResourcesSTYLESTYLE3TAGH5");
+$RefreshReg$(_c87, "ResourceSTYLESTYLE3TAGUIL");
+$RefreshReg$(_c88, "ResourceSTYLESTYLE3TAGUIL1");
+$RefreshReg$(_c89, "ResourceSTYLESTYLE3TAGUIL2");
+$RefreshReg$(_c90, "SizemediumstateContainer");
+$RefreshReg$(_c91, "IconICONfeatherfacebookSIZEMEDIUMST");
+$RefreshReg$(_c92, "Icon2");
+$RefreshReg$(_c93, "X6c69ed490a3e459081762a1816c1ca6e");
+$RefreshReg$(_c94, "Icon3");
+$RefreshReg$(_c95, "IconTwitter");
+$RefreshReg$(_c96, "Icon4");
+$RefreshReg$(_c97, "B6774697Ce254077825285dbbbc98619");
+$RefreshReg$(_c98, "FlexRow1");
+$RefreshReg$(_c99, "Fe6285e83ae34dd988b17417be5ad347");
+$RefreshReg$(_c100, "E7fa66f167a942a0891523c7ea7b14a0");
 $RefreshReg$(_c101, "Icon5");
-$RefreshReg$(_c102, "B6774697Ce254077825285dbbbc98619");
-$RefreshReg$(_c103, "FlexRow1");
-$RefreshReg$(_c104, "Fe6285e83ae34dd988b17417be5ad347");
-$RefreshReg$(_c105, "E7fa66f167a942a0891523c7ea7b14a0");
-$RefreshReg$(_c106, "Icon6");
-$RefreshReg$(_c107, "OverlapGroup7");
-$RefreshReg$(_c108, "X18d10ae04802479398792ad795373a07");
-$RefreshReg$(_c109, "IconICONfeatherphoneSIZEMEDIUMSTATE");
-$RefreshReg$(_c110, "Icon7");
-$RefreshReg$(_c111, "IconCall");
-$RefreshReg$(_c112, "FooterStrip");
-$RefreshReg$(_c113, "StylestyletaguiSContainer");
-$RefreshReg$(_c114, "CopyrightSTYLESTYLE2TAGUIS");
-$RefreshReg$(_c115, "PrivacyPolicySTYLESTYLE2TAGUIS");
+$RefreshReg$(_c102, "OverlapGroup8");
+$RefreshReg$(_c103, "X18d10ae04802479398792ad795373a07");
+$RefreshReg$(_c104, "IconICONfeatherphoneSIZEMEDIUMSTATE");
+$RefreshReg$(_c105, "Icon6");
+$RefreshReg$(_c106, "IconCall");
+$RefreshReg$(_c107, "FooterStrip");
+$RefreshReg$(_c108, "StylestyletaguiSContainer");
+$RefreshReg$(_c109, "CopyrightSTYLESTYLE2TAGUIS");
+$RefreshReg$(_c110, "PrivacyPolicySTYLESTYLE2TAGUIS");
 
-  $parcel$ReactRefreshHelpers$45ca.postlude(module);
+  $parcel$ReactRefreshHelpers$990b.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../ButtonDISPLAYELEMENTSLabelSIZEMEDIU":"fMDOJ","../IconICONfeatheranchorSIZELARGESTATE":"cKguF","../ButtonDISPLAYELEMENTSLabelSIZEMEDIU2":"5K1iU","styled-components":"1U3k6","../../styledMixins":"dUZFz","./ClassicHome.css":"6bEEj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fMDOJ":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"cHIiW","../ButtonDISPLAYELEMENTSLabelSIZEMEDIU":"fMDOJ","../IconICONfeatheranchorSIZELARGESTATE":"cKguF","../ButtonDISPLAYELEMENTSLabelSIZEMEDIU2":"5K1iU","styled-components":"1U3k6","../../styledMixins":"dUZFz","./Home.css":"8jqc7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fMDOJ":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5148 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34509,22 +34436,23 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styledComponents = require("styled-components");
 var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
 var _styledMixins = require("../../styledMixins");
-function ButtonDISPLAYELEMENTSLabelSIZEMEDIU() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonDISPLAYELEMENTSLabelSIZEMEDIU1, {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label, {
-            children: "Więcej"
+class ButtonDISPLAYELEMENTSLabelSIZEMEDIU extends (0, _reactDefault.default).Component {
+    render() {
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonDISPLAYELEMENTSLabelSIZEMEDIU1, {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label, {
+                children: "Więcej"
+            }, void 0, false, {
+                fileName: "components/ButtonDISPLAYELEMENTSLabelSIZEMEDIU/index.jsx",
+                lineNumber: 10,
+                columnNumber: 9
+            }, this)
         }, void 0, false, {
             fileName: "components/ButtonDISPLAYELEMENTSLabelSIZEMEDIU/index.jsx",
             lineNumber: 9,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/ButtonDISPLAYELEMENTSLabelSIZEMEDIU/index.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = ButtonDISPLAYELEMENTSLabelSIZEMEDIU;
 const ButtonDISPLAYELEMENTSLabelSIZEMEDIU1 = (0, _styledComponentsDefault.default).div`
   height: 48px;
   margin-top: 35px;
@@ -34536,7 +34464,7 @@ const ButtonDISPLAYELEMENTSLabelSIZEMEDIU1 = (0, _styledComponentsDefault.defaul
   min-width: 160px;
   background-color: var(--masala-2);
 `;
-_c1 = ButtonDISPLAYELEMENTSLabelSIZEMEDIU1;
+_c = ButtonDISPLAYELEMENTSLabelSIZEMEDIU1;
 const Label = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldBabyPowder16px)}
   min-height: 24px;
@@ -34546,12 +34474,11 @@ const Label = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c2 = Label;
+_c1 = Label;
 exports.default = ButtonDISPLAYELEMENTSLabelSIZEMEDIU;
-var _c, _c1, _c2;
-$RefreshReg$(_c, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU");
-$RefreshReg$(_c1, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU1");
-$RefreshReg$(_c2, "Label");
+var _c, _c1;
+$RefreshReg$(_c, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU1");
+$RefreshReg$(_c1, "Label");
 
   $parcel$ReactRefreshHelpers$5148.postlude(module);
 } finally {
@@ -34562,8 +34489,8 @@ $RefreshReg$(_c2, "Label");
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "NotosansSemiBoldMasala18px", ()=>NotosansSemiBoldMasala18px);
-parcelHelpers.export(exports, "NotosansSemiBoldMasala16px", ()=>NotosansSemiBoldMasala16px);
 parcelHelpers.export(exports, "NotosansSemiBoldBabyPowder16px", ()=>NotosansSemiBoldBabyPowder16px);
+parcelHelpers.export(exports, "NotosansSemiBoldMasala16px", ()=>NotosansSemiBoldMasala16px);
 parcelHelpers.export(exports, "NotosansMediumSonicSilver16px", ()=>NotosansMediumSonicSilver16px);
 parcelHelpers.export(exports, "NotosansBoldMasala24px", ()=>NotosansBoldMasala24px);
 parcelHelpers.export(exports, "NotosansBoldMasala32px", ()=>NotosansBoldMasala32px);
@@ -34578,15 +34505,15 @@ const NotosansSemiBoldMasala18px = (0, _styledComponents.css)`
   font-weight: 600;
   font-style: normal;
 `;
-const NotosansSemiBoldMasala16px = (0, _styledComponents.css)`
-  color: var(--masala);
+const NotosansSemiBoldBabyPowder16px = (0, _styledComponents.css)`
+  color: var(--baby-powder);
   font-family: var(--font-family-noto_sans);
   font-size: var(--font-size-m);
   font-weight: 600;
   font-style: normal;
 `;
-const NotosansSemiBoldBabyPowder16px = (0, _styledComponents.css)`
-  color: var(--baby-powder);
+const NotosansSemiBoldMasala16px = (0, _styledComponents.css)`
+  color: var(--masala);
   font-family: var(--font-family-noto_sans);
   font-size: var(--font-size-m);
   font-weight: 600;
@@ -34783,16 +34710,22 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styledComponents = require("styled-components");
 var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
-function IconICONfeatheranchorSIZELARGESTATE(props) {
-    const { src , className  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatheranchorSIZELARGESTATE1, {
-        className: `icon-iconfeatheranch ${className || ""}`,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon, {
-            className: "icon-8",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconSpanner, {
-                className: "icon-spanner",
-                src: src,
-                alt: "icon-spanner"
+class IconICONfeatheranchorSIZELARGESTATE extends (0, _reactDefault.default).Component {
+    render() {
+        const { src , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatheranchorSIZELARGESTATE1, {
+            className: `icon-iconfeatheranch ${className || ""}`,
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon, {
+                className: "icon-7",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconSpanner, {
+                    className: "icon-spanner",
+                    src: src,
+                    alt: "icon-spanner"
+                }, void 0, false, {
+                    fileName: "components/IconICONfeatheranchorSIZELARGESTATE/index.jsx",
+                    lineNumber: 12,
+                    columnNumber: 11
+                }, this)
             }, void 0, false, {
                 fileName: "components/IconICONfeatheranchorSIZELARGESTATE/index.jsx",
                 lineNumber: 11,
@@ -34802,26 +34735,21 @@ function IconICONfeatheranchorSIZELARGESTATE(props) {
             fileName: "components/IconICONfeatheranchorSIZELARGESTATE/index.jsx",
             lineNumber: 10,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/IconICONfeatheranchorSIZELARGESTATE/index.jsx",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = IconICONfeatheranchorSIZELARGESTATE;
 const IconICONfeatheranchorSIZELARGESTATE1 = (0, _styledComponentsDefault.default).div`
   width: 24px;
   height: 24px;
   display: flex;
 `;
-_c1 = IconICONfeatheranchorSIZELARGESTATE1;
+_c = IconICONfeatheranchorSIZELARGESTATE1;
 const Icon = (0, _styledComponentsDefault.default).div`
   flex: 1;
   width: 24px;
   display: flex;
 `;
-_c2 = Icon;
+_c1 = Icon;
 const IconSpanner = (0, _styledComponentsDefault.default).img`
   margin-top: -1.3px;
   margin-left: -1.3px;
@@ -34831,7 +34759,7 @@ const IconSpanner = (0, _styledComponentsDefault.default).img`
   width: 26.66668701171875px;
   object-fit: cover;
 `;
-_c3 = IconSpanner;
+_c2 = IconSpanner;
 const Icon1 = (0, _styledComponentsDefault.default).div`
   .icon-iconfeatheranch.icon-iconfeatherphon-1 & {
     margin-top: 0;
@@ -34851,11 +34779,10 @@ const IconCall = (0, _styledComponentsDefault.default).img`
   }
 `;
 exports.default = IconICONfeatheranchorSIZELARGESTATE;
-var _c, _c1, _c2, _c3;
-$RefreshReg$(_c, "IconICONfeatheranchorSIZELARGESTATE");
-$RefreshReg$(_c1, "IconICONfeatheranchorSIZELARGESTATE1");
-$RefreshReg$(_c2, "Icon");
-$RefreshReg$(_c3, "IconSpanner");
+var _c, _c1, _c2;
+$RefreshReg$(_c, "IconICONfeatheranchorSIZELARGESTATE1");
+$RefreshReg$(_c1, "Icon");
+$RefreshReg$(_c2, "IconSpanner");
 
   $parcel$ReactRefreshHelpers$bb62.postlude(module);
 } finally {
@@ -34877,22 +34804,23 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styledComponents = require("styled-components");
 var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
 var _styledMixins = require("../../styledMixins");
-function ButtonDISPLAYELEMENTSLabelSIZEMEDIU2() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonDISPLAYELEMENTSLabelSIZEMEDIU, {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label, {
-            children: "Więcej"
+class ButtonDISPLAYELEMENTSLabelSIZEMEDIU2 extends (0, _reactDefault.default).Component {
+    render() {
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonDISPLAYELEMENTSLabelSIZEMEDIU, {
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label, {
+                children: "Więcej"
+            }, void 0, false, {
+                fileName: "components/ButtonDISPLAYELEMENTSLabelSIZEMEDIU2/index.jsx",
+                lineNumber: 10,
+                columnNumber: 9
+            }, this)
         }, void 0, false, {
             fileName: "components/ButtonDISPLAYELEMENTSLabelSIZEMEDIU2/index.jsx",
             lineNumber: 9,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/ButtonDISPLAYELEMENTSLabelSIZEMEDIU2/index.jsx",
-        lineNumber: 8,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = ButtonDISPLAYELEMENTSLabelSIZEMEDIU2;
 const ButtonDISPLAYELEMENTSLabelSIZEMEDIU = (0, _styledComponentsDefault.default).div`
   height: 48px;
   margin-top: 51px;
@@ -34904,7 +34832,7 @@ const ButtonDISPLAYELEMENTSLabelSIZEMEDIU = (0, _styledComponentsDefault.default
   min-width: 144px;
   background-color: var(--masala-2);
 `;
-_c1 = ButtonDISPLAYELEMENTSLabelSIZEMEDIU;
+_c = ButtonDISPLAYELEMENTSLabelSIZEMEDIU;
 const Label = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldBabyPowder16px)}
   min-height: 24px;
@@ -34914,19 +34842,18 @@ const Label = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c2 = Label;
+_c1 = Label;
 exports.default = ButtonDISPLAYELEMENTSLabelSIZEMEDIU2;
-var _c, _c1, _c2;
-$RefreshReg$(_c, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU2");
-$RefreshReg$(_c1, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU");
-$RefreshReg$(_c2, "Label");
+var _c, _c1;
+$RefreshReg$(_c, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU");
+$RefreshReg$(_c1, "Label");
 
   $parcel$ReactRefreshHelpers$9fa3.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6bEEj":[function() {},{}],"ixcBX":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","styled-components":"1U3k6","../../styledMixins":"dUZFz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"8jqc7":[function() {},{}],"ixcBX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d1b3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -34947,35 +34874,41 @@ var _styledComponents = require("styled-components");
 var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
 var _styledMixins = require("../../styledMixins");
 var _contactCss = require("./Contact.css");
-function Contact(props) {
-    const { titleTagH4 , overlapGroup , address , phone , x633B0C014Ff4492BA705D17Ef50A60Aa , ce856E9C5B394DdbB5F855E2A08E9470 , mobile , value , label , overlapGroup1 , overlapGroup2 , e23B1F18F81D49BeBa723B03F82A1A01 , iconICONfeatheranchorSIZELARGESTATEProps , inputDISPLAYELEMENTSDefaultSTATEDEF1Props , inputDISPLAYELEMENTSDefaultSTATEDEF2Props  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-center-horizontal",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "contact screen",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup2, {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                    to: "/classic-home",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SignUp, {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TitleTAGH4, {
-                                        children: titleTagH4
-                                    }, void 0, false, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 40,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeathermapPinSIZELARGESTYLE, {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon, {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
-                                                        style: {
-                                                            backgroundImage: `url(${overlapGroup})`
-                                                        },
-                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X4daece1cDf2a4589A0565b9594974a1c, {}, void 0, false, {
+class Contact extends (0, _reactDefault.default).Component {
+    render() {
+        const { titleTagH4 , overlapGroup , address , phone , x633B0C014Ff4492BA705D17Ef50A60Aa , ce856E9C5B394DdbB5F855E2A08E9470 , mobile , value , label , overlapGroup1 , overlapGroup2 , e23B1F18F81D49BeBa723B03F82A1A01 , iconICONfeatheranchorSIZELARGESTATEProps , inputDISPLAYELEMENTSDefaultSTATEDEF1Props , inputDISPLAYELEMENTSDefaultSTATEDEF2Props  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "container-center-horizontal",
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "contact screen",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup2, {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                        to: "/home",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SignUp, {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexCol, {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TitleTAGH4, {
+                                            children: titleTagH4
+                                        }, void 0, false, {
+                                            fileName: "components/Contact/index.jsx",
+                                            lineNumber: 41,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow, {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeathermapPinSIZELARGESTYLE, {
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon, {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup, {
+                                                            style: {
+                                                                backgroundImage: `url(${overlapGroup})`
+                                                            },
+                                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X4daece1cDf2a4589A0565b9594974a1c, {}, void 0, false, {
+                                                                fileName: "components/Contact/index.jsx",
+                                                                lineNumber: 46,
+                                                                columnNumber: 27
+                                                            }, this)
+                                                        }, void 0, false, {
                                                             fileName: "components/Contact/index.jsx",
                                                             lineNumber: 45,
                                                             columnNumber: 25
@@ -34989,72 +34922,72 @@ function Contact(props) {
                                                     fileName: "components/Contact/index.jsx",
                                                     lineNumber: 43,
                                                     columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Address, {
+                                                    children: address
+                                                }, void 0, false, {
+                                                    fileName: "components/Contact/index.jsx",
+                                                    lineNumber: 50,
+                                                    columnNumber: 21
                                                 }, this)
-                                            }, void 0, false, {
-                                                fileName: "components/Contact/index.jsx",
-                                                lineNumber: 42,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Address, {
-                                                children: address
-                                            }, void 0, false, {
-                                                fileName: "components/Contact/index.jsx",
-                                                lineNumber: 49,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 41,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PhoneContainer, {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconICONfeatheranchorSIZELARGESTATEDefault.default), {
-                                                src: iconICONfeatheranchorSIZELARGESTATEProps.src,
-                                                className: iconICONfeatheranchorSIZELARGESTATEProps.className
-                                            }, void 0, false, {
-                                                fileName: "components/Contact/index.jsx",
-                                                lineNumber: 52,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Address, {
-                                                children: phone
-                                            }, void 0, false, {
-                                                fileName: "components/Contact/index.jsx",
-                                                lineNumber: 56,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 51,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeathermapPinSIZELARGESTYLE, {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon1, {
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
-                                                        children: [
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X633b0c014ff4492bA705D17ef50a60aa, {
-                                                                src: x633B0C014Ff4492BA705D17Ef50A60Aa,
-                                                                alt: "633b0c01-4ff4-492b-a705-d17ef50a60aa"
-                                                            }, void 0, false, {
-                                                                fileName: "components/Contact/index.jsx",
-                                                                lineNumber: 62,
-                                                                columnNumber: 25
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ce856e9c5b394ddbB5f855e2a08e9470, {
-                                                                src: ce856E9C5B394DdbB5F855E2A08E9470,
-                                                                alt: "ce856e9c-5b39-4ddb-b5f8-55e2a08e9470"
-                                                            }, void 0, false, {
-                                                                fileName: "components/Contact/index.jsx",
-                                                                lineNumber: 66,
-                                                                columnNumber: 25
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/Contact/index.jsx",
+                                            lineNumber: 42,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(PhoneContainer, {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _iconICONfeatheranchorSIZELARGESTATEDefault.default), {
+                                                    src: iconICONfeatheranchorSIZELARGESTATEProps.src,
+                                                    className: iconICONfeatheranchorSIZELARGESTATEProps.className
+                                                }, void 0, false, {
+                                                    fileName: "components/Contact/index.jsx",
+                                                    lineNumber: 53,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Address, {
+                                                    children: phone
+                                                }, void 0, false, {
+                                                    fileName: "components/Contact/index.jsx",
+                                                    lineNumber: 57,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/Contact/index.jsx",
+                                            lineNumber: 52,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(FlexRow1, {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeathermapPinSIZELARGESTYLE, {
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon1, {
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup1, {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(X633b0c014ff4492bA705D17ef50a60aa, {
+                                                                    src: x633B0C014Ff4492BA705D17Ef50A60Aa,
+                                                                    alt: "633b0c01-4ff4-492b-a705-d17ef50a60aa"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Contact/index.jsx",
+                                                                    lineNumber: 63,
+                                                                    columnNumber: 27
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ce856e9c5b394ddbB5f855e2a08e9470, {
+                                                                    src: ce856E9C5B394DdbB5F855E2A08E9470,
+                                                                    alt: "ce856e9c-5b39-4ddb-b5f8-55e2a08e9470"
+                                                                }, void 0, false, {
+                                                                    fileName: "components/Contact/index.jsx",
+                                                                    lineNumber: 67,
+                                                                    columnNumber: 27
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "components/Contact/index.jsx",
+                                                            lineNumber: 62,
+                                                            columnNumber: 25
+                                                        }, this)
+                                                    }, void 0, false, {
                                                         fileName: "components/Contact/index.jsx",
                                                         lineNumber: 61,
                                                         columnNumber: 23
@@ -35063,139 +34996,139 @@ function Contact(props) {
                                                     fileName: "components/Contact/index.jsx",
                                                     lineNumber: 60,
                                                     columnNumber: 21
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "components/Contact/index.jsx",
-                                                lineNumber: 59,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Address, {
-                                                children: mobile
-                                            }, void 0, false, {
-                                                fileName: "components/Contact/index.jsx",
-                                                lineNumber: 73,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 58,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(InputDisplayElemeContainer, {
-                                        children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _inputDISPLAYELEMENTSDefaultSTATEDEFDefault.default), {
-                                                children: inputDISPLAYELEMENTSDefaultSTATEDEF1Props.children
-                                            }, void 0, false, {
-                                                fileName: "components/Contact/index.jsx",
-                                                lineNumber: 76,
-                                                columnNumber: 19
-                                            }, this),
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _inputDISPLAYELEMENTSDefaultSTATEDEFDefault.default), {
-                                                className: inputDISPLAYELEMENTSDefaultSTATEDEF2Props.className,
-                                                children: inputDISPLAYELEMENTSDefaultSTATEDEF2Props.children
-                                            }, void 0, false, {
-                                                fileName: "components/Contact/index.jsx",
-                                                lineNumber: 79,
-                                                columnNumber: 19
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 75,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TextareaDISPLAYELEMENTSDefaultSTATE, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Value, {
-                                            children: value
-                                        }, void 0, false, {
-                                            fileName: "components/Contact/index.jsx",
-                                            lineNumber: 84,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 83,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonDISPLAYELEMENTSLabelSIZEMEDIU, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label, {
-                                            children: label
-                                        }, void 0, false, {
-                                            fileName: "components/Contact/index.jsx",
-                                            lineNumber: 87,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 86,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/Contact/index.jsx",
-                                lineNumber: 39,
-                                columnNumber: 15
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup11, {
-                                style: {
-                                    backgroundImage: `url(${overlapGroup1})`
-                                },
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LocationPin, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse, {}, void 0, false, {
-                                            fileName: "components/Contact/index.jsx",
-                                            lineNumber: 92,
-                                            columnNumber: 19
-                                        }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 91,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CircleButtonSIZEMEDIUMSTATEDEFAULTS, {
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherxSIZEMEDIUMSTATEDEFA, {
-                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon2, {
-                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup3, {
-                                                    style: {
-                                                        backgroundImage: `url(${overlapGroup2})`
-                                                    },
-                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(E23b1f18F81d49beBa723b03f82a1a01, {
-                                                        src: e23B1F18F81D49BeBa723B03F82A1A01,
-                                                        alt: "e23b1f18-f81d-49be-ba72-3b03f82a1a01"
-                                                    }, void 0, false, {
-                                                        fileName: "components/Contact/index.jsx",
-                                                        lineNumber: 98,
-                                                        columnNumber: 25
-                                                    }, this)
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Address, {
+                                                    children: mobile
                                                 }, void 0, false, {
                                                     fileName: "components/Contact/index.jsx",
-                                                    lineNumber: 97,
-                                                    columnNumber: 23
+                                                    lineNumber: 74,
+                                                    columnNumber: 21
                                                 }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/Contact/index.jsx",
+                                            lineNumber: 59,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(InputDisplayElemeContainer, {
+                                            children: [
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _inputDISPLAYELEMENTSDefaultSTATEDEFDefault.default), {
+                                                    children: inputDISPLAYELEMENTSDefaultSTATEDEF1Props.children
+                                                }, void 0, false, {
+                                                    fileName: "components/Contact/index.jsx",
+                                                    lineNumber: 77,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _inputDISPLAYELEMENTSDefaultSTATEDEFDefault.default), {
+                                                    className: inputDISPLAYELEMENTSDefaultSTATEDEF2Props.className,
+                                                    children: inputDISPLAYELEMENTSDefaultSTATEDEF2Props.children
+                                                }, void 0, false, {
+                                                    fileName: "components/Contact/index.jsx",
+                                                    lineNumber: 80,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "components/Contact/index.jsx",
+                                            lineNumber: 76,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(TextareaDISPLAYELEMENTSDefaultSTATE, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Value, {
+                                                children: value
                                             }, void 0, false, {
                                                 fileName: "components/Contact/index.jsx",
-                                                lineNumber: 96,
+                                                lineNumber: 87,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "components/Contact/index.jsx",
-                                            lineNumber: 95,
+                                            lineNumber: 86,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ButtonDISPLAYELEMENTSLabelSIZEMEDIU, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Label, {
+                                                children: label
+                                            }, void 0, false, {
+                                                fileName: "components/Contact/index.jsx",
+                                                lineNumber: 90,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "components/Contact/index.jsx",
+                                            lineNumber: 89,
                                             columnNumber: 19
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "components/Contact/index.jsx",
-                                        lineNumber: 94,
-                                        columnNumber: 17
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "components/Contact/index.jsx",
-                                lineNumber: 90,
-                                columnNumber: 15
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Contact/index.jsx",
+                                    lineNumber: 40,
+                                    columnNumber: 17
+                                }, this),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup11, {
+                                    style: {
+                                        backgroundImage: `url(${overlapGroup1})`
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(LocationPin, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Ellipse, {}, void 0, false, {
+                                                fileName: "components/Contact/index.jsx",
+                                                lineNumber: 95,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "components/Contact/index.jsx",
+                                            lineNumber: 94,
+                                            columnNumber: 19
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(CircleButtonSIZEMEDIUMSTATEDEFAULTS, {
+                                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(IconICONfeatherxSIZEMEDIUMSTATEDEFA, {
+                                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Icon2, {
+                                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(OverlapGroup3, {
+                                                        style: {
+                                                            backgroundImage: `url(${overlapGroup2})`
+                                                        },
+                                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(E23b1f18F81d49beBa723b03f82a1a01, {
+                                                            src: e23B1F18F81D49BeBa723B03F82A1A01,
+                                                            alt: "e23b1f18-f81d-49be-ba72-3b03f82a1a01"
+                                                        }, void 0, false, {
+                                                            fileName: "components/Contact/index.jsx",
+                                                            lineNumber: 101,
+                                                            columnNumber: 27
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "components/Contact/index.jsx",
+                                                        lineNumber: 100,
+                                                        columnNumber: 25
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "components/Contact/index.jsx",
+                                                    lineNumber: 99,
+                                                    columnNumber: 23
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "components/Contact/index.jsx",
+                                                lineNumber: 98,
+                                                columnNumber: 21
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "components/Contact/index.jsx",
+                                            lineNumber: 97,
+                                            columnNumber: 19
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "components/Contact/index.jsx",
+                                    lineNumber: 93,
+                                    columnNumber: 17
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "components/Contact/index.jsx",
+                            lineNumber: 39,
+                            columnNumber: 15
+                        }, this)
+                    }, void 0, false, {
                         fileName: "components/Contact/index.jsx",
                         lineNumber: 38,
                         columnNumber: 13
@@ -35214,14 +35147,9 @@ function Contact(props) {
             fileName: "components/Contact/index.jsx",
             lineNumber: 35,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/Contact/index.jsx",
-        lineNumber: 34,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = Contact;
 const OverlapGroup2 = (0, _styledComponentsDefault.default).div`
   height: 768px;
   display: flex;
@@ -35230,7 +35158,7 @@ const OverlapGroup2 = (0, _styledComponentsDefault.default).div`
   min-width: 1366px;
   background-color: var(--cararra);
 `;
-_c1 = OverlapGroup2;
+_c = OverlapGroup2;
 const SignUp = (0, _styledComponentsDefault.default).div`
   height: 600px;
   display: flex;
@@ -35245,7 +35173,7 @@ const SignUp = (0, _styledComponentsDefault.default).div`
   box-shadow: 8px 8px 0px #0000001a;
   cursor: pointer;
 `;
-_c2 = SignUp;
+_c1 = SignUp;
 const FlexCol = (0, _styledComponentsDefault.default).div`
   width: 330px;
   margin-top: 0.5px;
@@ -35254,7 +35182,7 @@ const FlexCol = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-height: 480px;
 `;
-_c3 = FlexCol;
+_c2 = FlexCol;
 const TitleTAGH4 = (0, _styledComponentsDefault.default).h1`
   ${(0, _styledMixins.NotosansBoldMasala32px)}
   min-height: 45px;
@@ -35263,7 +35191,7 @@ const TitleTAGH4 = (0, _styledComponentsDefault.default).h1`
   line-height: 42px;
   white-space: nowrap;
 `;
-_c4 = TitleTAGH4;
+_c3 = TitleTAGH4;
 const FlexRow = (0, _styledComponentsDefault.default).div`
   height: 25px;
   margin-top: 29px;
@@ -35273,13 +35201,13 @@ const FlexRow = (0, _styledComponentsDefault.default).div`
   min-width: 330px;
   gap: 16px;
 `;
-_c5 = FlexRow;
+_c4 = FlexRow;
 const IconICONfeathermapPinSIZELARGESTYLE = (0, _styledComponentsDefault.default).div`
   width: 24px;
   height: 24px;
   display: flex;
 `;
-_c6 = IconICONfeathermapPinSIZELARGESTYLE;
+_c5 = IconICONfeathermapPinSIZELARGESTYLE;
 const Icon = (0, _styledComponentsDefault.default).div`
   margin-left: 2.2px;
   margin-right: 2.2px;
@@ -35290,7 +35218,7 @@ const Icon = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-width: 19.63599967956543px;
 `;
-_c7 = Icon;
+_c6 = Icon;
 const OverlapGroup = (0, _styledComponentsDefault.default).div`
   height: 26px;
   margin-top: -1.09px;
@@ -35301,7 +35229,7 @@ const OverlapGroup = (0, _styledComponentsDefault.default).div`
   background-size: cover;
   background-position: 50% 50%;
 `;
-_c8 = OverlapGroup;
+_c7 = OverlapGroup;
 const X4daece1cDf2a4589A0565b9594974a1c = (0, _styledComponentsDefault.default).div`
   width: 9px;
   height: 9px;
@@ -35309,7 +35237,7 @@ const X4daece1cDf2a4589A0565b9594974a1c = (0, _styledComponentsDefault.default).
   border: 2.1818182468414307px solid;
   border-color: var(--masala);
 `;
-_c9 = X4daece1cDf2a4589A0565b9594974a1c;
+_c8 = X4daece1cDf2a4589A0565b9594974a1c;
 const Address = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldMasala16px)}
   width: 290px;
@@ -35318,7 +35246,7 @@ const Address = (0, _styledComponentsDefault.default).div`
   letter-spacing: 0;
   line-height: 16px;
 `;
-_c10 = Address;
+_c9 = Address;
 const PhoneContainer = (0, _styledComponentsDefault.default).div`
   height: 25px;
   position: relative;
@@ -35329,7 +35257,7 @@ const PhoneContainer = (0, _styledComponentsDefault.default).div`
   min-width: 330px;
   gap: 16px;
 `;
-_c11 = PhoneContainer;
+_c10 = PhoneContainer;
 const FlexRow1 = (0, _styledComponentsDefault.default).div`
   height: 25px;
   margin-top: 23px;
@@ -35338,7 +35266,7 @@ const FlexRow1 = (0, _styledComponentsDefault.default).div`
   min-width: 330px;
   gap: 16px;
 `;
-_c12 = FlexRow1;
+_c11 = FlexRow1;
 const Icon1 = (0, _styledComponentsDefault.default).div`
   margin-top: 2.4px;
   margin-right: 0;
@@ -35349,14 +35277,14 @@ const Icon1 = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-width: 24px;
 `;
-_c13 = Icon1;
+_c12 = Icon1;
 const OverlapGroup1 = (0, _styledComponentsDefault.default).div`
   width: 27px;
   height: 22px;
   position: relative;
   margin-top: -1.2px;
 `;
-_c14 = OverlapGroup1;
+_c13 = OverlapGroup1;
 const X633b0c014ff4492bA705D17ef50a60aa = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 26px;
@@ -35365,7 +35293,7 @@ const X633b0c014ff4492bA705D17ef50a60aa = (0, _styledComponentsDefault.default).
   left: 0;
   object-fit: cover;
 `;
-_c15 = X633b0c014ff4492bA705D17ef50a60aa;
+_c14 = X633b0c014ff4492bA705D17ef50a60aa;
 const Ce856e9c5b394ddbB5f855e2a08e9470 = (0, _styledComponentsDefault.default).img`
   position: absolute;
   width: 27px;
@@ -35374,7 +35302,7 @@ const Ce856e9c5b394ddbB5f855e2a08e9470 = (0, _styledComponentsDefault.default).i
   left: 0;
   object-fit: cover;
 `;
-_c16 = Ce856e9c5b394ddbB5f855e2a08e9470;
+_c15 = Ce856e9c5b394ddbB5f855e2a08e9470;
 const InputDisplayElemeContainer = (0, _styledComponentsDefault.default).div`
   height: 48px;
   position: relative;
@@ -35385,7 +35313,7 @@ const InputDisplayElemeContainer = (0, _styledComponentsDefault.default).div`
   min-width: 328px;
   gap: 16px;
 `;
-_c17 = InputDisplayElemeContainer;
+_c16 = InputDisplayElemeContainer;
 const TextareaDISPLAYELEMENTSDefaultSTATE = (0, _styledComponentsDefault.default).div`
   width: 328px;
   height: 96px;
@@ -35396,7 +35324,7 @@ const TextareaDISPLAYELEMENTSDefaultSTATE = (0, _styledComponentsDefault.default
   border: 2px solid;
   border-color: var(--ship-gray);
 `;
-_c18 = TextareaDISPLAYELEMENTSDefaultSTATE;
+_c17 = TextareaDISPLAYELEMENTSDefaultSTATE;
 const Value = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldShipGray16px)}
   margin-top: 13px;
@@ -35409,7 +35337,7 @@ const Value = (0, _styledComponentsDefault.default).div`
   letter-spacing: 0;
   line-height: 16px;
 `;
-_c19 = Value;
+_c18 = Value;
 const ButtonDISPLAYELEMENTSLabelSIZEMEDIU = (0, _styledComponentsDefault.default).div`
   height: 48px;
   margin-top: 16px;
@@ -35421,7 +35349,7 @@ const ButtonDISPLAYELEMENTSLabelSIZEMEDIU = (0, _styledComponentsDefault.default
   min-width: 328px;
   background-color: var(--masala-2);
 `;
-_c20 = ButtonDISPLAYELEMENTSLabelSIZEMEDIU;
+_c19 = ButtonDISPLAYELEMENTSLabelSIZEMEDIU;
 const Label = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldBabyPowder16px)}
   min-height: 24px;
@@ -35431,7 +35359,7 @@ const Label = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c21 = Label;
+_c20 = Label;
 const OverlapGroup11 = (0, _styledComponentsDefault.default).div`
   height: 568px;
   display: flex;
@@ -35443,7 +35371,7 @@ const OverlapGroup11 = (0, _styledComponentsDefault.default).div`
   background-size: cover;
   background-position: 50% 50%;
 `;
-_c22 = OverlapGroup11;
+_c21 = OverlapGroup11;
 const LocationPin = (0, _styledComponentsDefault.default).div`
   height: 80px;
   align-self: center;
@@ -35454,14 +35382,14 @@ const LocationPin = (0, _styledComponentsDefault.default).div`
   background-color: #cfcfcf;
   border-radius: 40px;
 `;
-_c23 = LocationPin;
+_c22 = LocationPin;
 const Ellipse = (0, _styledComponentsDefault.default).div`
   width: 28px;
   height: 28px;
   background-color: var(--masala-2);
   border-radius: 14px;
 `;
-_c24 = Ellipse;
+_c23 = Ellipse;
 const CircleButtonSIZEMEDIUMSTATEDEFAULTS = (0, _styledComponentsDefault.default).div`
   height: 48px;
   display: flex;
@@ -35473,13 +35401,13 @@ const CircleButtonSIZEMEDIUMSTATEDEFAULTS = (0, _styledComponentsDefault.default
   border: 2px solid;
   border-color: var(--ship-gray);
 `;
-_c25 = CircleButtonSIZEMEDIUMSTATEDEFAULTS;
+_c24 = CircleButtonSIZEMEDIUMSTATEDEFAULTS;
 const IconICONfeatherxSIZEMEDIUMSTATEDEFA = (0, _styledComponentsDefault.default).div`
   width: 20px;
   height: 20px;
   display: flex;
 `;
-_c26 = IconICONfeatherxSIZEMEDIUMSTATEDEFA;
+_c25 = IconICONfeatherxSIZEMEDIUMSTATEDEFA;
 const Icon2 = (0, _styledComponentsDefault.default).div`
   flex: 1;
   display: flex;
@@ -35487,7 +35415,7 @@ const Icon2 = (0, _styledComponentsDefault.default).div`
   align-items: flex-start;
   min-width: 20px;
 `;
-_c27 = Icon2;
+_c26 = Icon2;
 const OverlapGroup3 = (0, _styledComponentsDefault.default).div`
   margin-top: -2.36px;
   display: flex;
@@ -35496,45 +35424,44 @@ const OverlapGroup3 = (0, _styledComponentsDefault.default).div`
   background-size: cover;
   background-position: 50% 50%;
 `;
-_c28 = OverlapGroup3;
+_c27 = OverlapGroup3;
 const E23b1f18F81d49beBa723b03f82a1a01 = (0, _styledComponentsDefault.default).img`
   width: 25px;
   height: 25px;
   object-fit: cover;
 `;
-_c29 = E23b1f18F81d49beBa723b03f82a1a01;
+_c28 = E23b1f18F81d49beBa723b03f82a1a01;
 exports.default = Contact;
-var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22, _c23, _c24, _c25, _c26, _c27, _c28, _c29;
-$RefreshReg$(_c, "Contact");
-$RefreshReg$(_c1, "OverlapGroup2");
-$RefreshReg$(_c2, "SignUp");
-$RefreshReg$(_c3, "FlexCol");
-$RefreshReg$(_c4, "TitleTAGH4");
-$RefreshReg$(_c5, "FlexRow");
-$RefreshReg$(_c6, "IconICONfeathermapPinSIZELARGESTYLE");
-$RefreshReg$(_c7, "Icon");
-$RefreshReg$(_c8, "OverlapGroup");
-$RefreshReg$(_c9, "X4daece1cDf2a4589A0565b9594974a1c");
-$RefreshReg$(_c10, "Address");
-$RefreshReg$(_c11, "PhoneContainer");
-$RefreshReg$(_c12, "FlexRow1");
-$RefreshReg$(_c13, "Icon1");
-$RefreshReg$(_c14, "OverlapGroup1");
-$RefreshReg$(_c15, "X633b0c014ff4492bA705D17ef50a60aa");
-$RefreshReg$(_c16, "Ce856e9c5b394ddbB5f855e2a08e9470");
-$RefreshReg$(_c17, "InputDisplayElemeContainer");
-$RefreshReg$(_c18, "TextareaDISPLAYELEMENTSDefaultSTATE");
-$RefreshReg$(_c19, "Value");
-$RefreshReg$(_c20, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU");
-$RefreshReg$(_c21, "Label");
-$RefreshReg$(_c22, "OverlapGroup11");
-$RefreshReg$(_c23, "LocationPin");
-$RefreshReg$(_c24, "Ellipse");
-$RefreshReg$(_c25, "CircleButtonSIZEMEDIUMSTATEDEFAULTS");
-$RefreshReg$(_c26, "IconICONfeatherxSIZEMEDIUMSTATEDEFA");
-$RefreshReg$(_c27, "Icon2");
-$RefreshReg$(_c28, "OverlapGroup3");
-$RefreshReg$(_c29, "E23b1f18F81d49beBa723b03f82a1a01");
+var _c, _c1, _c2, _c3, _c4, _c5, _c6, _c7, _c8, _c9, _c10, _c11, _c12, _c13, _c14, _c15, _c16, _c17, _c18, _c19, _c20, _c21, _c22, _c23, _c24, _c25, _c26, _c27, _c28;
+$RefreshReg$(_c, "OverlapGroup2");
+$RefreshReg$(_c1, "SignUp");
+$RefreshReg$(_c2, "FlexCol");
+$RefreshReg$(_c3, "TitleTAGH4");
+$RefreshReg$(_c4, "FlexRow");
+$RefreshReg$(_c5, "IconICONfeathermapPinSIZELARGESTYLE");
+$RefreshReg$(_c6, "Icon");
+$RefreshReg$(_c7, "OverlapGroup");
+$RefreshReg$(_c8, "X4daece1cDf2a4589A0565b9594974a1c");
+$RefreshReg$(_c9, "Address");
+$RefreshReg$(_c10, "PhoneContainer");
+$RefreshReg$(_c11, "FlexRow1");
+$RefreshReg$(_c12, "Icon1");
+$RefreshReg$(_c13, "OverlapGroup1");
+$RefreshReg$(_c14, "X633b0c014ff4492bA705D17ef50a60aa");
+$RefreshReg$(_c15, "Ce856e9c5b394ddbB5f855e2a08e9470");
+$RefreshReg$(_c16, "InputDisplayElemeContainer");
+$RefreshReg$(_c17, "TextareaDISPLAYELEMENTSDefaultSTATE");
+$RefreshReg$(_c18, "Value");
+$RefreshReg$(_c19, "ButtonDISPLAYELEMENTSLabelSIZEMEDIU");
+$RefreshReg$(_c20, "Label");
+$RefreshReg$(_c21, "OverlapGroup11");
+$RefreshReg$(_c22, "LocationPin");
+$RefreshReg$(_c23, "Ellipse");
+$RefreshReg$(_c24, "CircleButtonSIZEMEDIUMSTATEDEFAULTS");
+$RefreshReg$(_c25, "IconICONfeatherxSIZEMEDIUMSTATEDEFA");
+$RefreshReg$(_c26, "Icon2");
+$RefreshReg$(_c27, "OverlapGroup3");
+$RefreshReg$(_c28, "E23b1f18F81d49beBa723b03f82a1a01");
 
   $parcel$ReactRefreshHelpers$d1b3.postlude(module);
 } finally {
@@ -35556,25 +35483,26 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _styledComponents = require("styled-components");
 var _styledComponentsDefault = parcelHelpers.interopDefault(_styledComponents);
 var _styledMixins = require("../../styledMixins");
-function InputDISPLAYELEMENTSDefaultSTATEDEF(props) {
-    const { children , className  } = props;
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(InputDISPLAYELEMENTSDefaultSTATEDEF1, {
-        className: `input-display_elemen ${className || ""}`,
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Value, {
-            className: "value-1",
-            children: children
+class InputDISPLAYELEMENTSDefaultSTATEDEF extends (0, _reactDefault.default).Component {
+    render() {
+        const { children , className  } = this.props;
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(InputDISPLAYELEMENTSDefaultSTATEDEF1, {
+            className: `input-display_elemen ${className || ""}`,
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Value, {
+                className: "value-1",
+                children: children
+            }, void 0, false, {
+                fileName: "components/InputDISPLAYELEMENTSDefaultSTATEDEF/index.jsx",
+                lineNumber: 12,
+                columnNumber: 9
+            }, this)
         }, void 0, false, {
             fileName: "components/InputDISPLAYELEMENTSDefaultSTATEDEF/index.jsx",
             lineNumber: 11,
             columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "components/InputDISPLAYELEMENTSDefaultSTATEDEF/index.jsx",
-        lineNumber: 10,
-        columnNumber: 5
-    }, this);
+        }, this);
+    }
 }
-_c = InputDISPLAYELEMENTSDefaultSTATEDEF;
 const InputDISPLAYELEMENTSDefaultSTATEDEF1 = (0, _styledComponentsDefault.default).div`
   height: 48px;
   display: flex;
@@ -35585,7 +35513,7 @@ const InputDISPLAYELEMENTSDefaultSTATEDEF1 = (0, _styledComponentsDefault.defaul
   border: 2px solid;
   border-color: var(--ship-gray);
 `;
-_c1 = InputDISPLAYELEMENTSDefaultSTATEDEF1;
+_c = InputDISPLAYELEMENTSDefaultSTATEDEF1;
 const Value = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldShipGray16px)}
   min-height: 24px;
@@ -35595,7 +35523,7 @@ const Value = (0, _styledComponentsDefault.default).div`
   line-height: 16px;
   white-space: nowrap;
 `;
-_c2 = Value;
+_c1 = Value;
 const Value1 = (0, _styledComponentsDefault.default).div`
   ${(0, _styledMixins.NotosansSemiBoldShipGray16px)}
 
@@ -35604,10 +35532,9 @@ const Value1 = (0, _styledComponentsDefault.default).div`
   }
 `;
 exports.default = InputDISPLAYELEMENTSDefaultSTATEDEF;
-var _c, _c1, _c2;
-$RefreshReg$(_c, "InputDISPLAYELEMENTSDefaultSTATEDEF");
-$RefreshReg$(_c1, "InputDISPLAYELEMENTSDefaultSTATEDEF1");
-$RefreshReg$(_c2, "Value");
+var _c, _c1;
+$RefreshReg$(_c, "InputDISPLAYELEMENTSDefaultSTATEDEF1");
+$RefreshReg$(_c1, "Value");
 
   $parcel$ReactRefreshHelpers$0cf2.postlude(module);
 } finally {
